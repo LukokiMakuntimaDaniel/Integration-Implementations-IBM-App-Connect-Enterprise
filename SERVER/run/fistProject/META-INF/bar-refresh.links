@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1751319288070" workspaceResource="/fistProject/gen/fistProject.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file fistProject/gen/fistProject.msgflow.&#xA;Successfully added file fistProject/gen/fistProject.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="gen/fistProject.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1751319497966" workspaceResource="/fistProject/getOlaMundo.subflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file fistProject/getOlaMundo.subflow.&#xA;Successfully added file fistProject/getOlaMundo.subflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="getOlaMundo.subflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1751319532525" workspaceResource="/fistProject/getOlaMundo_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file fistProject/getOlaMundo_Compute.esql.&#xA;Successfully added file fistProject/getOlaMundo_Compute.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="getOlaMundo_Compute.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1751319288069" workspaceResource="/fistProject/restapi.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file fistProject/restapi.descriptor.&#xA;Successfully added file fistProject/restapi.descriptor to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file fistProject/restapi.descriptor to BAR file.&#xA;" severity="0"/>
+      <barEntry name="restapi.descriptor"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1751319288068" workspaceResource="/fistProject/swagger.json">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file fistProject/swagger.json.&#xA;Successfully added file fistProject/swagger.json to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file fistProject/swagger.json to BAR file.&#xA;" severity="0"/>
+      <barEntry name="swagger.json"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

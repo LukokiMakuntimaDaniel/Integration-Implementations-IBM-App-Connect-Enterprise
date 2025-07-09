@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/fistProjectproject.generated.bar" deployTimestamp="2025-06-30 21:39:06">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="gen.fistProject" deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/fistProjectproject.generated.bar" deployTimestamp="2025-06-30 21:39:06">
+    <ConfigurableProperty uri="gen.fistProject#HTTP Input.URLSpecifier" override="/fistproject/v1*">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#HTTP Input.faultFormat" override="JSON">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#additionalInstances" override="3">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="gen.fistProject#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+  <CompiledMessageFlow name="getOlaMundo" type="subflow" deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/fistProjectproject.generated.bar" deployTimestamp="2025-06-30 21:39:06">
+    <ConfigurableProperty uri="getOlaMundo#Compute.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="getOlaMundo#Compute.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="getOlaMundo#Compute.validateMaster">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

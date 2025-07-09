@@ -1,0 +1,12 @@
+BROKER SCHEMA ao.studying.nodes.group.routing
+
+
+CREATE COMPUTE MODULE Routing_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		SET OutputRoot.JSON.Data.operation = Environment.Variable.operation;
+		SET OutputRoot.JSON.Data.result =   Environment.Variable.result;
+		RETURN TRUE;
+	END;
+
+END MODULE;

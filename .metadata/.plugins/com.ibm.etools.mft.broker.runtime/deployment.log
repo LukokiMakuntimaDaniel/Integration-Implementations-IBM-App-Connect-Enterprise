@@ -1,0 +1,82 @@
+fistProject>>>>SERVER>>SUCCESS>>1751319546522
+BIP9332I<<RestAPI 'fistProject' has been created successfully. <<1751319546522
+BIP9326I<<The source 'fistProjectproject.generated.bar' has been successfully deployed. <<1751319546522
+studyingDifferentNodes>>>>SERVER>>SUCCESS>>1751966041372
+BIP9332I<<Application 'studyingDifferentNodes' has been created successfully. <<1751966041372
+BIP9326I<<The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. <<1751966041372
+studyingDifferentNodes>>>>SERVER>>SUCCESS>>1751970536539
+BIP9332I<<Application 'studyingDifferentNodes' has been changed successfully. <<1751970536539
+BIP9326I<<The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. <<1751970536539
+studyingDifferentNodes>>>>SERVER>>SUCCESS>>1751970742830
+BIP9332I<<Application 'studyingDifferentNodes' has been changed successfully. <<1751970742830
+BIP9326I<<The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. <<1751970742830
+studyingDifferentNodes>>>>SERVER>>SUCCESS>>1751970790914
+BIP9332I<<Application 'studyingDifferentNodes' has been changed successfully. <<1751970790914
+BIP9326I<<The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. <<1751970790914
+studyingDifferentNodes>>>>SERVER>>SUCCESS>>1751974616556
+BIP9332I<<Application 'studyingDifferentNodes' has been changed successfully. <<1751974616556
+BIP9326I<<The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. <<1751974616556
+studyingDifferentNodes>>>>SERVER>>SUCCESS>>1751975594596
+BIP9332I<<Application 'studyingDifferentNodes' has been changed successfully. <<1751975594596
+BIP9326I<<The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. <<1751975594596
+studyingDifferentNodes>>>>SERVER>>SUCCESS>>1751977100492
+BIP9332I<<Application 'studyingDifferentNodes' has been changed successfully. <<1751977100492
+BIP9326I<<The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. <<1751977100492
+studyingDifferentNodes>>>>SERVER>>SUCCESS>>1751978449601
+BIP9332I<<Application 'studyingDifferentNodes' has been changed successfully. <<1751978449601
+BIP9326I<<The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. <<1751978449601
+studyingDifferentNodes>>>>SERVER>>SUCCESS>>1751979013040
+BIP9332I<<Application 'studyingDifferentNodes' has been changed successfully. <<1751979013040
+BIP9326I<<The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. <<1751979013040
+studyingDifferentNodes>>>>SERVER>>SUCCESS>>1751979265799
+BIP9332I<<Application 'studyingDifferentNodes' has been changed successfully. <<1751979265799
+BIP9326I<<The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. <<1751979265799
+studyingDifferentNodes>>>>SERVER>>SUCCESS>>1751979600591
+BIP9332I<<Application 'studyingDifferentNodes' has been changed successfully. <<1751979600591
+BIP9326I<<The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. <<1751979600591
+studyingDifferentNodes>>>>SERVER>>SUCCESS>>1751979790752
+BIP9332I<<Application 'studyingDifferentNodes' has been changed successfully. <<1751979790752
+BIP9326I<<The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. <<1751979790752
+studyingDifferentNodes>>>>SERVER>>SUCCESS>>1751982877144
+BIP9332I<<Application 'studyingDifferentNodes' has been changed successfully. <<1751982877144
+BIP9326I<<The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. <<1751982877144
+studyingDifferentNodes>>>>SERVER>>SUCCESS>>1751983680193
+BIP9332I<<Application 'studyingDifferentNodes' has been changed successfully. <<1751983680193
+BIP9326I<<The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. <<1751983680193
+studyingDifferentNodes>>>>SERVER>>WARNING>>1751983754391
+BIP4125E<<Failed to load ESQL file '/home/lukoki-makuntima-daniel/Documentos/Integration project/SERVER/run/studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_Compute.esql'. <<1751983754391
+BIP2408E<<(ao.studying.nodes.group.routing.Routing_Compute.Main, 4.87) : Scale must be >= 0 and <= 9. <<1751983754391
+BIP9320E<<Message Flow 'ao.studying.nodes.group.routing.Routing', 'ao.studying.nodes.group.routing.Routing' encountered a failure and could not start. <<1751983754391
+BIP4001E<<Syntax error in SQL statements in node '{0}'. <<1751983754391
+BIP4127E<<Failed to find ESQL module 'ao.studying.nodes.group.routing.Routing_Compute'. <<1751983754391
+BIP9333W<<Application 'studyingDifferentNodes' has been changed but contains errors which has prevented some resources from starting. <<1751983754391
+BIP1096E<<The source 'studyingDifferentNodesproject.generated.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1751983754391
+studyingDifferentNodes>>>>SERVER>>WARNING>>1751983778610
+BIP4125E<<Failed to load ESQL file '/home/lukoki-makuntima-daniel/Documentos/Integration project/SERVER/run/studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_Compute.esql'. <<1751983778610
+BIP2408E<<(ao.studying.nodes.group.routing.Routing_Compute.Main, 4.87) : Scale must be >= 0 and <= 9. <<1751983778610
+BIP9320E<<Message Flow 'ao.studying.nodes.group.routing.Routing', 'ao.studying.nodes.group.routing.Routing' encountered a failure and could not start. <<1751983778610
+BIP4001E<<Syntax error in SQL statements in node '{0}'. <<1751983778610
+BIP4127E<<Failed to find ESQL module 'ao.studying.nodes.group.routing.Routing_Compute'. <<1751983778610
+BIP9333W<<Application 'studyingDifferentNodes' has been changed but contains errors which has prevented some resources from starting. <<1751983778610
+BIP1096E<<The source 'studyingDifferentNodesproject.generated.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1751983778610
+studyingDifferentNodes>>>>SERVER>>SUCCESS>>1751983797169
+BIP9332I<<Application 'studyingDifferentNodes' has been changed successfully. <<1751983797169
+BIP9326I<<The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. <<1751983797169
+studyingDifferentNodes>>>>SERVER>>SUCCESS>>1751985104869
+BIP9332I<<Application 'studyingDifferentNodes' has been changed successfully. <<1751985104869
+BIP9326I<<The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. <<1751985104869
+studyingDifferentNodes>>>>SERVER>>SUCCESS>>1751985202977
+BIP9332I<<Application 'studyingDifferentNodes' has been changed successfully. <<1751985202977
+BIP9326I<<The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. <<1751985202977
+studyingDifferentNodes>>>>SERVER>>SUCCESS>>1751985511929
+BIP9332I<<Application 'studyingDifferentNodes' has been changed successfully. <<1751985511929
+BIP9326I<<The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. <<1751985511929
+studyingDifferentNodes>>>>SERVER>>SUCCESS>>1751997871800
+BIP9332I<<Application 'studyingDifferentNodes' has been changed successfully. <<1751997871800
+BIP9326I<<The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. <<1751997871800
+studyingDifferentNodes>>>>SERVER>>SUCCESS>>1751998012942
+BIP9332I<<Application 'studyingDifferentNodes' has been changed successfully. <<1751998012942
+BIP9326I<<The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. <<1751998012942
+studyingDifferentNodes>>>>SERVER>>SUCCESS>>1752003075604
+BIP9332I<<Application 'studyingDifferentNodes' has been changed successfully. <<1752003075604
+BIP9326I<<The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. <<1752003075604

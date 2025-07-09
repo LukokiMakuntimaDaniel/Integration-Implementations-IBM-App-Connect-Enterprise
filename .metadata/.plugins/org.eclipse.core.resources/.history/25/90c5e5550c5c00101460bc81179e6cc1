@@ -1,0 +1,16 @@
+BROKER SCHEMA ao.studying.nodes.group.routing
+
+
+CREATE FILTER MODULE Routing_Filter
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+				
+		SET OutputRoot.JSON.Data.operation = Root.JSON.Data.operation;
+		SET OutputRoot.JSON.Data.result =    Root.JSON.Data..result;
+		
+		RETURN TRUE;
+		
+	END;
+
+END MODULE;

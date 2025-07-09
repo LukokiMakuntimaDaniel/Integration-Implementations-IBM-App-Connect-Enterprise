@@ -1,0 +1,11 @@
+
+
+CREATE COMPUTE MODULE getOlaMundo_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		SET OutputRoot.JSON.Data.hello = 'ola mundo';
+		RETURN TRUE;
+		
+	END;
+END MODULE;

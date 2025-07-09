@@ -1,0 +1,20 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		
+		DECLARE operation CHARACTER Root.JSON.Data.operation;
+		SET Environment.Variable.operation = Root.JSON.Data.operation;
+		SET Environment.Variable.result =    Root.JSON.Data.result;
+		CASE operation
+			
+		WHEN  '' THEN
+			
+		ELSE
+			
+		END CASE;
+		
+		
+		
+		RETURN TRUE;
+		
+	END;
+

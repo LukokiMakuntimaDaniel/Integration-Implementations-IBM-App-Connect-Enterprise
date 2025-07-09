@@ -1,0 +1,8 @@
+CREATE COMPUTE MODULE Routing_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		SET OutputRoot.JSON.Data.operation = Environment.Variable.operation;
+		RETURN TRUE;
+	END;
+
+END MODULE;

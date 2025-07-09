@@ -1,0 +1,22 @@
+CREATE FILTER MODULE Routing_Filter
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		DECLARE operation CHARACTER Root.JSON.Data.operation;
+		SET Environment.Variable.operation = Root.JSON.Data.operation;
+		SET Environment.Variable.result =    Root.JSON.Data.result;
+		CASE operation
+			
+		WHEN  'DIV' THEN
+			
+		ELSE
+			
+		END CASE;
+		
+		
+		
+		RETURN TRUE;
+		
+	END;
+
+END MODULE;

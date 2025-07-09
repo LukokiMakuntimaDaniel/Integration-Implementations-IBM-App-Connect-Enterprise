@@ -1,0 +1,8 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		
+		SET OutputRoot.JSON.Data.result = Environment.Variable.result;
+		SET OutputRoot.JSON.Data.operation = Environment.Variable.operation;
+		RETURN TRUE;
+		
+	END;

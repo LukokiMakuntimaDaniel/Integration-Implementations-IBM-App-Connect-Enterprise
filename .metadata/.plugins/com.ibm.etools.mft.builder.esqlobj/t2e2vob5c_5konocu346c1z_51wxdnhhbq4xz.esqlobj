@@ -1,0 +1,11 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		
+				
+		SET OutputRoot.JSON.Data.operation = Root.JSON.Data.operation;
+		SET OutputRoot.JSON.Data.result =    Root.JSON.Data..result;
+		
+		RETURN TRUE;
+		
+	END;
+

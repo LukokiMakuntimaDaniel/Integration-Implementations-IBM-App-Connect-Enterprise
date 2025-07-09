@@ -1,0 +1,13 @@
+CREATE FILTER MODULE Routing_Filter
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		
+		SET Environment.Variable.operation = Root.JSON.Data.operation;
+		SET Environment.Variable..result =    Root.JSON.Data.result;
+		
+		RETURN TRUE;
+		
+	END;
+
+END MODULE;

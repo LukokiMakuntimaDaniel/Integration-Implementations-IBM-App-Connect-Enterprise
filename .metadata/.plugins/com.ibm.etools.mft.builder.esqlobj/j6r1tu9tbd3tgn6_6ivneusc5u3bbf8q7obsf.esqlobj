@@ -1,0 +1,26 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		DECLARE inputRef REFERENCE TO Root.JSON.Data;
+		DECLARE operation CHARACTER inputRef.operation;
+		DECLARE cont INTEGER 1;
+		DECLARE total INTEGER CARDINALITY(inputRef.numbers.Item[]);
+		DECLARE sub INTEGER 0;
+		DECLARE add INTEGER 0;
+		DECLARE mult INTEGER 0;
+		DECLARE div INTEGER 0;
+		
+		CASE UPPER(operation)
+			
+		WHEN 'SUM' THEN
+		    SET add = add+1;
+		WHEN 'SUM' THEN
+		
+		WHEN 'SUM' THEN
+		
+		WHEN 'SUM' THEN
+			
+		END CASE;
+		
+		RETURN TRUE;
+	END;
+

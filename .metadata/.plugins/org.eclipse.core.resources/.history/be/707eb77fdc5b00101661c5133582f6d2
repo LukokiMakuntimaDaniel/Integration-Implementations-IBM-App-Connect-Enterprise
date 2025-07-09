@@ -1,0 +1,10 @@
+BROKER SCHEMA ao.studying.nodes.group.routing
+
+
+CREATE FILTER MODULE Routing_Filter
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		RETURN TRUE;
+	END;
+
+END MODULE;

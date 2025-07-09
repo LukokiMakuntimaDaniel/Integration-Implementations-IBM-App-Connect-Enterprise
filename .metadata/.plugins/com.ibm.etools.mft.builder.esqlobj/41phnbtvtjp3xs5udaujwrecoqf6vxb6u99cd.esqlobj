@@ -1,0 +1,34 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		
+		DECLARE inputRef REFERENCE TO Root.JSON.Data;
+		DECLARE operation CHARACTER inputRef.operation;
+		DECLARE cont INTEGER 1;
+		DECLARE total INTEGER CARDINALITY(inputRef.numbers.Item[]);
+		DECLARE sub INTEGER 0;
+		DECLARE add INTEGER 0;
+		DECLARE mult INTEGER 1;
+		DECLARE div INTEGER 1;
+		
+		CASE UPPER(operation)
+			
+		WHEN 'SUM' THEN
+		    SET add = add+inputRef.numbers.Item[cont];
+		    SET Environment.Variable.result = add;
+		WHEN 'MULT' THEN
+			 SET mult = mult*inputRef.numbers.Item[cont];
+			 SET Environment.Variable.result = mult;
+		WHEN 'SUB' THEN
+			SET sub = inputRef.numbers.Item[cont]-sub;
+			SET Environment.Variable.result = sub;
+		WHEN 'DIV' THEN
+			SET div = inputRef.numbers.Item[cont]/div;
+			SET Environment.Variable.result = div;
+		END CASE;
+		
+		 SET Environment.Variable.result = operation;
+		
+		RETURN TRUE;
+		
+	END;
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/studyingDifferentNodesproject.generated.bar" deployTimestamp="2025-07-08 19:31:15">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="ao.studying.nodes.group.routing.Routing" deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/studyingDifferentNodesproject.generated.bar" deployTimestamp="2025-07-08 19:31:15">
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#Compute.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#Compute.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#Compute.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#Filter.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#Filter.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#filter.URLSpecifier" override="/filter">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#filter.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#filter.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#filter.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#filter.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#filter.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#filter.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#response.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#response.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#response.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.routing.Routing#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

@@ -1,0 +1,11 @@
+BROKER SCHEMA ao.studying.nodes.group.routing
+
+
+CREATE COMPUTE MODULE Routing_Compute1
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		
+		RETURN TRUE;
+	END;
+END MODULE;

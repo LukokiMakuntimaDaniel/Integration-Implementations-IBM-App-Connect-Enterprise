@@ -1,0 +1,45 @@
+BROKER SCHEMA ao.studying.nodes.group.routing
+
+
+CREATE COMPUTE MODULE Routing_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		DECLARE inputRef REFERENCE TO InputRoot.JSON.Data;
+		DECLARE operation CHARACTER inputRef.operation;
+		DECLARE cont INTEGER 1;
+		DECLARE total INTEGER CARDINALITY(inputRef.numbers.Item[]);
+		DECLARE sub INTEGER inputRef.numbers.Item[cont];
+		DECLARE add INTEGER 0;
+		DECLARE mult INTEGER 1;
+		DECLARE div DECIMAL inputRef.numbers.Item[cont];
+		
+		WHILE cont<=total DO
+			CASE UPPER(operation)
+				WHEN 'SUM' THEN
+				    SET add = add+inputRef.numbers.Item[cont];
+				    SET OutputRoot.JSON.Data.result = add;
+				WHEN 'MULT' THEN
+					 SET mult = mult*inputRef.numbers.Item[cont];
+					 SET OutputRoot.JSON.Data.result = mult;
+				WHEN 'SUB' THEN
+					IF cont+1<=total  THEN
+						SET sub = sub-inputRef.numbers.Item[cont+1];
+						SET OutputRoot.JSON.Data.result = sub;
+					END IF;
+				WHEN 'DIV' THEN
+					IF cont+1<=total  THEN
+						SET div = div / inputRef.numbers.Item[cont+1];
+						SET OutputRoot.JSON.Data.result = div; CAST(div AS DECIMAL(10,5));
+					END IF;
+			END CASE;
+			SET cont =cont+1;
+		END WHILE;
+		
+		SET OutputRoot.JSON.Data.operation = operation;
+		
+		RETURN TRUE;
+	
+	END;
+
+END MODULE;
