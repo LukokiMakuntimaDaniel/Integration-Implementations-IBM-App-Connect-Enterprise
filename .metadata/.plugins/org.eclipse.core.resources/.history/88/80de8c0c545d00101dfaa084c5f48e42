@@ -36,7 +36,7 @@
       <nodes xmi:type="ComIbmLabel.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_17" location="773,322" labelName="div">
         <translation xmi:type="utility:ConstantString" string="Div"/>
       </nodes>
-      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_18" location="307,194" computeExpression="esql://routine/ao.studying.nodes.group.routing#Routing_Compute1.Main">
+      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_18" location="331,194" computeExpression="esql://routine/ao.studying.nodes.group.routing#Routing_Compute1.Main">
         <translation xmi:type="utility:ConstantString" string="choose"/>
       </nodes>
       <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_2" targetNode="FCMComposite_1_4" sourceNode="FCMComposite_1_1" sourceTerminalName="OutTerminal.failure" targetTerminalName="InTerminal.in">
