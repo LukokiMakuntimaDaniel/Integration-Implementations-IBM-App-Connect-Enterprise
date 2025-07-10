@@ -9,6 +9,7 @@ This repository showcases various integration projects using **IBM App Connect E
 ## 📦 What You'll Find
 
 - 🌐 Integration with **REST** and **SOAP APIs**
+- 🌐 Aplications
 - 🗃️ Connectivity with **databases** (MySQL, PostgreSQL, DB2)
 - 💬 Messaging with **IBM MQ**
 - ☁️ Integration with **cloud services** (AWS, Azure, IBM Cloud)
@@ -17,5 +18,4 @@ This repository showcases various integration projects using **IBM App Connect E
 
 - IBM App Connect Enterprise v12 or later  
 - ACE Toolkit or Integration Server environment  
-- Docker (optional, for container-based testing)  
 - Git  
