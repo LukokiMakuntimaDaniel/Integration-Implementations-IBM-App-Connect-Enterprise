@@ -1,157 +1,149 @@
-2025-07-08 14:54:10.598674: BIP1990I: Integration server 'SERVER' starting initialization; version '12.0.12.13' (64-bit) 
-2025-07-08 14:54:10.620052: BIP9905I: Initializing resource managers. 
+2025-07-10 20:10:46.601864: BIP1990I: Integration server 'SERVER' starting initialization; version '12.0.12.13' (64-bit) 
+2025-07-10 20:10:46.623176: BIP9905I: Initializing resource managers. 
 Listening for transport dt_socket at address: 9997
-2025-07-08 14:54:11.241479: BIP10112I: The resources from 'mqsicdc.par' have not been loaded because the runtime component 'ChangeDataCapture' has not been enabled. Reason: 'Restricted by Java Runtime selected'. Further detail: '/home/lukoki-makuntima-daniel/Documentos/ace-12.0.12.13/common/jdk/jre/embedded.java.yaml'. 
-2025-07-08 14:54:11.615107: BIP10112I: The resources from 'imbopentelemetry.lil' have not been loaded because the runtime component 'OpenTelemetry' has not been enabled. Reason: 'Integration Server Configuration'. Further detail: 'server.conf.yaml'. 
-2025-07-08 14:54:14.334654: BIP9906I: Reading deployed resources. 
-2025-07-08 14:54:14.341112: BIP9907I: Initializing deployed resources. 
-2025-07-08 14:54:14.343104: BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 14:54:14.359902: BIP2155I: About to 'Initialize' the deployed resource 'fistProject' of type 'RestAPI'. 
-2025-07-08 14:54:14.902922: BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 14:54:14.924722: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
-2025-07-08 14:54:14.925088: BIP1996I: Listening on HTTP URL '/filter'. 
+2025-07-10 20:10:47.093272: BIP10112I: The resources from 'mqsicdc.par' have not been loaded because the runtime component 'ChangeDataCapture' has not been enabled. Reason: 'Restricted by Java Runtime selected'. Further detail: '/home/lukoki-makuntima-daniel/Documentos/ace-12.0.12.13/common/jdk/jre/embedded.java.yaml'. 
+2025-07-10 20:10:47.470744: BIP10112I: The resources from 'imbopentelemetry.lil' have not been loaded because the runtime component 'OpenTelemetry' has not been enabled. Reason: 'Integration Server Configuration'. Further detail: 'server.conf.yaml'. 
+2025-07-10 20:10:49.922200: BIP9906I: Reading deployed resources. 
+2025-07-10 20:10:49.928940: BIP9907I: Initializing deployed resources. 
+2025-07-10 20:10:49.930540: BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:10:49.946812: BIP2155I: About to 'Initialize' the deployed resource 'fistProject' of type 'RestAPI'. 
+2025-07-10 20:10:50.376020: BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:10:50.397692: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2025-07-10 20:10:50.397900: BIP1996I: Listening on HTTP URL '/filter'. 
 Started native listener for HTTP input node on port 7800 for URL /filter
-2025-07-08 14:54:14.925482: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') started successfully. 
-2025-07-08 14:54:14.925651: BIP9332I: Application 'studyingDifferentNodes' has been reloaded successfully. 
-2025-07-08 14:54:14.925773: BIP2155I: About to 'Start' the deployed resource 'fistProject' of type 'RestAPI'. 
-2025-07-08 14:54:14.926191: BIP1996I: Listening on HTTP URL '/fistproject/v1*'. 
+2025-07-10 20:10:50.398312: BIP1996I: Listening on HTTP URL '/label'. 
+Started native listener for HTTP input node on port 7800 for URL /label
+2025-07-10 20:10:50.398492: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') started successfully. 
+2025-07-10 20:10:50.398588: BIP9332I: Application 'studyingDifferentNodes' has been reloaded successfully. 
+2025-07-10 20:10:50.398680: BIP2155I: About to 'Start' the deployed resource 'fistProject' of type 'RestAPI'. 
+2025-07-10 20:10:50.398960: BIP1996I: Listening on HTTP URL '/fistproject/v1*'. 
 Started native listener for HTTP input node on port 7800 for URL /fistproject/v1*
-2025-07-08 14:54:14.926379: BIP2269I: Deployed resource 'gen.fistProject' (uuid='gen.fistProject',type='MessageFlow') started successfully. 
-2025-07-08 14:54:14.926439: BIP9332I: RestAPI 'fistProject' has been reloaded successfully. 
-2025-07-08 14:54:15.335214: BIP2866I: IBM App Connect Enterprise administration security is inactive. 
-2025-07-08 14:54:15.359117: BIP3132I: The HTTP Listener has started listening on port '7600' for 'RestAdmin http' connections. 
-2025-07-08 14:54:15.363623: BIP1991I: Integration server has finished initialization. 
-2025-07-08 14:54:37.146648: BIP2152I: Configuration message received. 
-2025-07-08 14:54:37.152956: BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 14:54:41.879228: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') successfully stopped. 
-2025-07-08 14:54:41.879604: BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 14:54:41.936648: BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 14:54:41.975968: BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 14:54:41.976376: BIP1996I: Listening on HTTP URL '/filter'. 
+2025-07-10 20:10:50.399200: BIP2269I: Deployed resource 'gen.fistProject' (uuid='gen.fistProject',type='MessageFlow') started successfully. 
+2025-07-10 20:10:50.399252: BIP9332I: RestAPI 'fistProject' has been reloaded successfully. 
+2025-07-10 20:10:50.717292: BIP2866I: IBM App Connect Enterprise administration security is inactive. 
+2025-07-10 20:10:50.735688: BIP3132I: The HTTP Listener has started listening on port '7600' for 'RestAdmin http' connections. 
+2025-07-10 20:10:50.739748: BIP1991I: Integration server has finished initialization. 
+2025-07-10 20:12:17.090268: BIP2152I: Configuration message received. 
+2025-07-10 20:12:17.097560: BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:12:21.949224: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') successfully stopped. 
+2025-07-10 20:12:21.949636: BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:12:22.025576: BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:12:22.076592: BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:12:22.077022: BIP1996I: Listening on HTTP URL '/filter'. 
 Started native listener for HTTP input node on port 7800 for URL /filter
-2025-07-08 14:54:41.976496: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') started successfully. 
-2025-07-08 14:54:41.976564: BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
-2025-07-08 14:54:41.976608: BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
-2025-07-08 14:54:41.976776: BIP2154I: Integration server finished with Configuration message. 
-2025-07-08 15:08:00.195509: BIP2152I: Configuration message received. 
-2025-07-08 15:08:00.200825: BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:08:04.750642: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') successfully stopped. 
-2025-07-08 15:08:04.750739: BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:08:04.789095: BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:08:04.830457: BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:08:04.830846: BIP1996I: Listening on HTTP URL '/filter'. 
+2025-07-10 20:12:22.077360: BIP1996I: Listening on HTTP URL '/label'. 
+Started native listener for HTTP input node on port 7800 for URL /label
+2025-07-10 20:12:22.077486: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') started successfully. 
+2025-07-10 20:12:22.077544: BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
+2025-07-10 20:12:22.077584: BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
+2025-07-10 20:12:22.077740: BIP2154I: Integration server finished with Configuration message. 
+2025-07-10 20:12:54.061208: BIP2152I: Configuration message received. 
+2025-07-10 20:12:54.069132: BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:12:58.082832: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') successfully stopped. 
+2025-07-10 20:12:58.083100: BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:12:58.136652: BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:12:58.174784: BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:12:58.175172: BIP1996I: Listening on HTTP URL '/filter'. 
 Started native listener for HTTP input node on port 7800 for URL /filter
-2025-07-08 15:08:04.830954: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') started successfully. 
-2025-07-08 15:08:04.831012: BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
-2025-07-08 15:08:04.831084: BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
-2025-07-08 15:08:04.831220: BIP2154I: Integration server finished with Configuration message. 
-2025-07-08 15:09:14.394049: BIP2152I: Configuration message received. 
-2025-07-08 15:09:14.398613: BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:09:18.234756: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') successfully stopped. 
-2025-07-08 15:09:18.235170: BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:09:18.277342: BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:09:18.279046: BIP4125E: Failed to load ESQL file '/home/lukoki-makuntima-daniel/Documentos/Integration project/SERVER/run/studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_Compute.esql'. 
-2025-07-08 15:09:18.279100: BIP2408E: (ao.studying.nodes.group.routing.Routing_Compute.Main, 4.87) : Scale must be >= 0 and <= 9. 
-2025-07-08 15:09:18.311346: BIP9320E: Message Flow 'ao.studying.nodes.group.routing.Routing', 'ao.studying.nodes.group.routing.Routing' encountered a failure and could not start. 
-2025-07-08 15:09:18.311396: BIP4001E: Syntax error in SQL statements in node 'ao.studying.nodes.group.routing.Routing.Compute'. 
-2025-07-08 15:09:18.311410: BIP4127E: Failed to find ESQL module 'ao.studying.nodes.group.routing.Routing_Compute'. 
-2025-07-08 15:09:18.311490: BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:09:18.311606: BIP9333W: Application 'studyingDifferentNodes' has been changed but contains errors which has prevented some resources from starting. 
-2025-07-08 15:09:18.311686: BIP1096E: The source 'studyingDifferentNodesproject.generated.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. 
-2025-07-08 15:09:18.311848: BIP2154I: Integration server finished with Configuration message. 
-2025-07-08 15:09:38.611784: BIP2152I: Configuration message received. 
-2025-07-08 15:09:38.617504: BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:09:38.617652: BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:09:38.638748: BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:09:38.639692: BIP4125E: Failed to load ESQL file '/home/lukoki-makuntima-daniel/Documentos/Integration project/SERVER/run/studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_Compute.esql'. 
-2025-07-08 15:09:38.639772: BIP2408E: (ao.studying.nodes.group.routing.Routing_Compute.Main, 4.87) : Scale must be >= 0 and <= 9. 
-2025-07-08 15:09:38.677992: BIP9320E: Message Flow 'ao.studying.nodes.group.routing.Routing', 'ao.studying.nodes.group.routing.Routing' encountered a failure and could not start. 
-2025-07-08 15:09:38.678084: BIP4001E: Syntax error in SQL statements in node 'ao.studying.nodes.group.routing.Routing.Compute'. 
-2025-07-08 15:09:38.678124: BIP4127E: Failed to find ESQL module 'ao.studying.nodes.group.routing.Routing_Compute'. 
-2025-07-08 15:09:38.678240: BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:09:38.678456: BIP9333W: Application 'studyingDifferentNodes' has been changed but contains errors which has prevented some resources from starting. 
-2025-07-08 15:09:38.678548: BIP1096E: The source 'studyingDifferentNodesproject.generated.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. 
-2025-07-08 15:09:38.678752: BIP2154I: Integration server finished with Configuration message. 
-2025-07-08 15:09:57.171400: BIP2152I: Configuration message received. 
-2025-07-08 15:09:57.178260: BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:09:57.178356: BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:09:57.205916: BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:09:57.249428: BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:09:57.249992: BIP1996I: Listening on HTTP URL '/filter'. 
+2025-07-10 20:12:58.175436: BIP1996I: Listening on HTTP URL '/label'. 
+Started native listener for HTTP input node on port 7800 for URL /label
+2025-07-10 20:12:58.175540: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') started successfully. 
+2025-07-10 20:12:58.175596: BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
+2025-07-10 20:12:58.175632: BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
+2025-07-10 20:12:58.175764: BIP2154I: Integration server finished with Configuration message. 
+Listening for transport dt_socket at address: 9997
+2025-07-10 20:21:31.853788: BIP2152I: Configuration message received. 
+2025-07-10 20:21:31.864320: BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:21:36.267688: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') successfully stopped. 
+2025-07-10 20:21:36.268040: BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:21:36.331180: BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:21:36.387508: BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:21:36.388096: BIP1996I: Listening on HTTP URL '/filter'. 
 Started native listener for HTTP input node on port 7800 for URL /filter
-2025-07-08 15:09:57.250204: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') started successfully. 
-2025-07-08 15:09:57.250296: BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
-2025-07-08 15:09:57.250360: BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
-2025-07-08 15:09:57.250552: BIP2154I: Integration server finished with Configuration message. 
-2025-07-08 15:31:44.871440: BIP2152I: Configuration message received. 
-2025-07-08 15:31:44.878292: BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:31:48.355876: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') successfully stopped. 
-2025-07-08 15:31:48.356284: BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:31:48.402852: BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:31:48.434496: BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:31:48.435056: BIP1996I: Listening on HTTP URL '/filter'. 
+2025-07-10 20:21:36.388272: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.filterNode' (uuid='ao.studying.nodes.group.routing.filterNode',type='MessageFlow') started successfully. 
+2025-07-10 20:21:36.388764: BIP1996I: Listening on HTTP URL '/label'. 
+Started native listener for HTTP input node on port 7800 for URL /label
+2025-07-10 20:21:36.388956: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.labelNode' (uuid='ao.studying.nodes.group.routing.labelNode',type='MessageFlow') started successfully. 
+2025-07-10 20:21:36.389052: BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
+2025-07-10 20:21:36.389136: BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
+2025-07-10 20:21:36.389324: BIP2154I: Integration server finished with Configuration message. 
+2025-07-10 20:22:31.995154: BIP2152I: Configuration message received. 
+2025-07-10 20:22:32.004742: BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:22:34.892700: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.filterNode' (uuid='ao.studying.nodes.group.routing.filterNode',type='MessageFlow') successfully stopped. 
+2025-07-10 20:22:34.893012: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.labelNode' (uuid='ao.studying.nodes.group.routing.labelNode',type='MessageFlow') successfully stopped. 
+2025-07-10 20:22:34.893092: BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:22:34.946976: BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:22:35.015228: BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:22:35.015800: BIP1996I: Listening on HTTP URL '/filter'. 
 Started native listener for HTTP input node on port 7800 for URL /filter
-2025-07-08 15:31:48.435200: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') started successfully. 
-2025-07-08 15:31:48.435276: BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
-2025-07-08 15:31:48.435344: BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
-2025-07-08 15:31:48.435528: BIP2154I: Integration server finished with Configuration message. 
-2025-07-08 15:33:22.979952: BIP2152I: Configuration message received. 
-2025-07-08 15:33:22.985970: BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:33:25.447136: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') successfully stopped. 
-2025-07-08 15:33:25.447440: BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:33:25.475476: BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:33:25.507730: BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:33:25.508134: BIP1996I: Listening on HTTP URL '/filter'. 
+2025-07-10 20:22:35.016040: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.filterNode' (uuid='ao.studying.nodes.group.routing.filterNode',type='MessageFlow') started successfully. 
+2025-07-10 20:22:35.016652: BIP1996I: Listening on HTTP URL '/label'. 
+Started native listener for HTTP input node on port 7800 for URL /label
+2025-07-10 20:22:35.016836: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.labelNode' (uuid='ao.studying.nodes.group.routing.labelNode',type='MessageFlow') started successfully. 
+2025-07-10 20:22:35.016912: BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
+2025-07-10 20:22:35.016980: BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
+2025-07-10 20:22:35.017128: BIP2154I: Integration server finished with Configuration message. 
+2025-07-10 20:23:35.571340: BIP2152I: Configuration message received. 
+2025-07-10 20:23:35.579048: BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:23:37.022372: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.filterNode' (uuid='ao.studying.nodes.group.routing.filterNode',type='MessageFlow') successfully stopped. 
+2025-07-10 20:23:37.081564: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.labelNode' (uuid='ao.studying.nodes.group.routing.labelNode',type='MessageFlow') successfully stopped. 
+2025-07-10 20:23:37.081848: BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:23:37.143240: BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:23:37.208776: BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:23:37.209416: BIP1996I: Listening on HTTP URL '/filter'. 
 Started native listener for HTTP input node on port 7800 for URL /filter
-2025-07-08 15:33:25.508252: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') started successfully. 
-2025-07-08 15:33:25.508306: BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
-2025-07-08 15:33:25.508356: BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
-2025-07-08 15:33:25.508496: BIP2154I: Integration server finished with Configuration message. 
-2025-07-08 15:38:31.931644: BIP2152I: Configuration message received. 
-2025-07-08 15:38:31.936686: BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:38:36.534988: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') successfully stopped. 
-2025-07-08 15:38:36.535544: BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:38:36.581976: BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:38:36.615512: BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 15:38:36.615952: BIP1996I: Listening on HTTP URL '/filter'. 
+2025-07-10 20:23:37.209588: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.filterNode' (uuid='ao.studying.nodes.group.routing.filterNode',type='MessageFlow') started successfully. 
+2025-07-10 20:23:37.210004: BIP1996I: Listening on HTTP URL '/label'. 
+Started native listener for HTTP input node on port 7800 for URL /label
+2025-07-10 20:23:37.210236: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.labelNode' (uuid='ao.studying.nodes.group.routing.labelNode',type='MessageFlow') started successfully. 
+2025-07-10 20:23:37.210324: BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
+2025-07-10 20:23:37.210364: BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
+2025-07-10 20:23:37.210532: BIP2154I: Integration server finished with Configuration message. 
+2025-07-10 20:25:29.172964: BIP2152I: Configuration message received. 
+2025-07-10 20:25:29.180670: BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:25:33.220996: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.filterNode' (uuid='ao.studying.nodes.group.routing.filterNode',type='MessageFlow') successfully stopped. 
+2025-07-10 20:25:33.221852: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.labelNode' (uuid='ao.studying.nodes.group.routing.labelNode',type='MessageFlow') successfully stopped. 
+2025-07-10 20:25:33.222274: BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:25:33.289314: BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:25:33.338704: BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:25:33.339130: BIP1996I: Listening on HTTP URL '/filter'. 
 Started native listener for HTTP input node on port 7800 for URL /filter
-2025-07-08 15:38:36.616108: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') started successfully. 
-2025-07-08 15:38:36.616164: BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
-2025-07-08 15:38:36.616204: BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
-2025-07-08 15:38:36.616348: BIP2154I: Integration server finished with Configuration message. 
-2025-07-08 19:04:31.803670: BIP2152I: Configuration message received. 
-2025-07-08 19:04:31.809592: BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 19:04:33.552528: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') successfully stopped. 
-2025-07-08 19:04:33.552848: BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 19:04:33.595124: BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 19:04:33.625148: BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 19:04:33.625584: BIP1996I: Listening on HTTP URL '/filter'. 
+2025-07-10 20:25:33.339302: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.filterNode' (uuid='ao.studying.nodes.group.routing.filterNode',type='MessageFlow') started successfully. 
+2025-07-10 20:25:33.339660: BIP1996I: Listening on HTTP URL '/label'. 
+Started native listener for HTTP input node on port 7800 for URL /label
+2025-07-10 20:25:33.339824: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.labelNode' (uuid='ao.studying.nodes.group.routing.labelNode',type='MessageFlow') started successfully. 
+2025-07-10 20:25:33.339898: BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
+2025-07-10 20:25:33.339936: BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
+2025-07-10 20:25:33.340106: BIP2154I: Integration server finished with Configuration message. 
+2025-07-10 20:26:48.618180: BIP2152I: Configuration message received. 
+2025-07-10 20:26:48.630704: BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:26:50.347480: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.filterNode' (uuid='ao.studying.nodes.group.routing.filterNode',type='MessageFlow') successfully stopped. 
+2025-07-10 20:26:50.347748: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.labelNode' (uuid='ao.studying.nodes.group.routing.labelNode',type='MessageFlow') successfully stopped. 
+2025-07-10 20:26:50.347832: BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:26:50.375452: BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:26:50.420980: BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:26:50.421440: BIP1996I: Listening on HTTP URL '/filter'. 
 Started native listener for HTTP input node on port 7800 for URL /filter
-2025-07-08 19:04:33.625784: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') started successfully. 
-2025-07-08 19:04:33.625872: BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
-2025-07-08 19:04:33.625936: BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
-2025-07-08 19:04:33.626112: BIP2154I: Integration server finished with Configuration message. 
-2025-07-08 19:06:52.945260: BIP2152I: Configuration message received. 
-2025-07-08 19:06:52.950140: BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 19:06:57.078140: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') successfully stopped. 
-2025-07-08 19:06:57.078468: BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 19:06:57.119144: BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 19:06:57.152216: BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 19:06:57.152656: BIP1996I: Listening on HTTP URL '/filter'. 
+2025-07-10 20:26:50.421588: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.filterNode' (uuid='ao.studying.nodes.group.routing.filterNode',type='MessageFlow') started successfully. 
+2025-07-10 20:26:50.421968: BIP1996I: Listening on HTTP URL '/label'. 
+Started native listener for HTTP input node on port 7800 for URL /label
+2025-07-10 20:26:50.422104: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.labelNode' (uuid='ao.studying.nodes.group.routing.labelNode',type='MessageFlow') started successfully. 
+2025-07-10 20:26:50.422160: BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
+2025-07-10 20:26:50.422200: BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
+2025-07-10 20:26:50.422340: BIP2154I: Integration server finished with Configuration message. 
+2025-07-10 20:28:00.017230: BIP2152I: Configuration message received. 
+2025-07-10 20:28:00.025266: BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:28:02.429395: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.filterNode' (uuid='ao.studying.nodes.group.routing.filterNode',type='MessageFlow') successfully stopped. 
+2025-07-10 20:28:02.430486: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.labelNode' (uuid='ao.studying.nodes.group.routing.labelNode',type='MessageFlow') successfully stopped. 
+2025-07-10 20:28:02.430688: BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:28:02.474893: BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:28:02.531363: BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-10 20:28:02.532178: BIP1996I: Listening on HTTP URL '/filter'. 
 Started native listener for HTTP input node on port 7800 for URL /filter
-2025-07-08 19:06:57.152792: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') started successfully. 
-2025-07-08 19:06:57.152856: BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
-2025-07-08 19:06:57.152900: BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
-2025-07-08 19:06:57.153060: BIP2154I: Integration server finished with Configuration message. 
-2025-07-08 20:31:15.606261: BIP2152I: Configuration message received. 
-2025-07-08 20:31:15.613380: BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 20:31:18.569102: BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') successfully stopped. 
-2025-07-08 20:31:18.569240: BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 20:31:18.606686: BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 20:31:18.648578: BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-08 20:31:18.648996: BIP1996I: Listening on HTTP URL '/filter'. 
-Started native listener for HTTP input node on port 7800 for URL /filter
-2025-07-08 20:31:18.649154: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.Routing' (uuid='ao.studying.nodes.group.routing.Routing',type='MessageFlow') started successfully. 
-2025-07-08 20:31:18.649222: BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
-2025-07-08 20:31:18.649260: BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
-2025-07-08 20:31:18.649386: BIP2154I: Integration server finished with Configuration message. 
+2025-07-10 20:28:02.532466: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.filterNode' (uuid='ao.studying.nodes.group.routing.filterNode',type='MessageFlow') started successfully. 
+2025-07-10 20:28:02.533081: BIP1996I: Listening on HTTP URL '/label'. 
+Started native listener for HTTP input node on port 7800 for URL /label
+2025-07-10 20:28:02.533307: BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.labelNode' (uuid='ao.studying.nodes.group.routing.labelNode',type='MessageFlow') started successfully. 
+2025-07-10 20:28:02.533402: BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
+2025-07-10 20:28:02.533470: BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
+2025-07-10 20:28:02.533669: BIP2154I: Integration server finished with Configuration message. 

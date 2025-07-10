@@ -1,0 +1,29 @@
+BROKER SCHEMA ao.studying.nodes.group.routing
+
+
+CREATE COMPUTE MODULE Routing_choose
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		DECLARE inputRef REFERENCE TO InputRoot.JSON.Data.calculate;
+		DECLARE operation CHARACTER UPPER(inputRef.operation);
+		
+		CASE operation
+			
+		WHEN 'SUM' THEN
+		
+		WHEN 'MULT' THEN
+		
+		WHEN 'DIV' THEN
+		
+		WHEN 'SUM' THEN
+			
+		ELSE
+			
+		END CASE;
+		
+		RETURN TRUE;
+	END;
+
+
+END MODULE;

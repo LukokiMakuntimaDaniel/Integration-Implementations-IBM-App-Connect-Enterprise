@@ -1,0 +1,19 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		
+		DECLARE inputRef REFERENCE TO InputRoot.JSON.Data.calculate;
+		DECLARE operation CHARACTER inputRef.operation;
+		DECLARE cont INTEGER 1;
+		DECLARE total INTEGER CARDINALITY(inputRef.numbers.Item[]);
+		DECLARE add INTEGER 0;
+		
+		WHILE cont<=total DO
+			SET total =total + inputRef.numbers.Item[cont];
+			SET cont = cont+1;
+		END WHILE;
+		
+		
+		RETURN TRUE;
+	END;
+
+	

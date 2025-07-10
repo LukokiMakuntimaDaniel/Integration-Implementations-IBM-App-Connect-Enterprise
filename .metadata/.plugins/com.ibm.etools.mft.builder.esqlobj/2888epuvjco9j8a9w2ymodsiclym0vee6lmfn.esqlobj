@@ -1,0 +1,10 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		
+		DECLARE inputRef REFERENCE TO InputRoot.JSON.Data.calculate;
+		DECLARE operation CHARACTER inputRef.operation;
+		
+		RETURN TRUE;
+	END;
+
+

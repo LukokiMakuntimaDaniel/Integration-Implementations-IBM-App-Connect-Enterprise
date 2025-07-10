@@ -1,0 +1,39 @@
+BROKER SCHEMA ao.studying.nodes.group.routing
+
+
+CREATE COMPUTE MODULE Routing_choose
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		DECLARE inputRef REFERENCE TO InputRoot.JSON.Data.calculate;
+		DECLARE operation CHARACTER UPPER(inputRef.operation);
+		
+		CASE operation
+			
+		WHEN 'SUM' THEN
+			
+			SET OutputLocalEnvironment.Destination.RouterList.DestinationData[1].labelName = 'sum';
+		
+		WHEN 'MULT' THEN
+			
+			SET OutputLocalEnvironment.Destination.RouterList.DestinationData[1].labelName = 'mult';
+		
+		WHEN 'DIV' THEN
+			
+			SET OutputLocalEnvironment.Destination.RouterList.DestinationData[1].labelName = 'div';
+		
+		WHEN 'SUB' THEN
+			
+			SET OutputLocalEnvironment.Destination.RouterList.DestinationData[1].labelName = 'sub';
+			
+		ELSE
+			
+			SET OutputLocalEnvironment.Destination.RouterList.DestinationData[1].labelName = 'unknown';
+			
+		END CASE;
+		
+		RETURN TRUE;
+	END;
+
+
+END MODULE;

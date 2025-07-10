@@ -1,15 +1,29 @@
 
 ==============================================
 
-!Tue Jul 08 20:31:15 WAT 2025
+!Thu Jul 10 20:27:59 WAT 2025
 
-Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing.msgflow to BAR file.
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/labelNode.msgflow to BAR file.
+
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/filterNode.msgflow to BAR file.
 
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_Compute.esql to BAR file.
 
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_Compute1.esql to BAR file.
 
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_Filter.esql to BAR file.
+
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_choose.esql to BAR file.
+
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_makeDiv.esql to BAR file.
+
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_makeMult.esql to BAR file.
+
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_makeSub1.esql to BAR file.
+
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_makeSum.esql to BAR file.
+
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_unknown.esql to BAR file.
 
 Successfully added file studyingDifferentNodes/application.descriptor to BAR file.
 

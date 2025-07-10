@@ -1,0 +1,34 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		
+		DECLARE inputRef REFERENCE TO InputRoot.JSON.Data.calculate;
+		DECLARE operation CHARACTER UPPER(inputRef.operation);
+		
+		CASE operation
+			
+		WHEN 'SUM' THEN
+			
+			SET OutputLocalEnvironment.Destination.RouterList.DestinationData[1].labelName = 'sum';
+		
+		WHEN 'MULT' THEN
+			
+			SET OutputLocalEnvironment.Destination.RouterList.DestinationData[1].labelName = 'mult';
+		
+		WHEN 'DIV' THEN
+			
+			SET OutputLocalEnvironment.Destination.RouterList.DestinationData[1].labelName = 'div';
+		
+		WHEN 'SUB' THEN
+			
+			SET OutputLocalEnvironment.Destination.RouterList.DestinationData[1].labelName = 'sub';
+			
+		ELSE
+			
+			SET OutputLocalEnvironment.Destination.RouterList.DestinationData[1].labelName = 'unknown';
+			
+		END CASE;
+		
+		RETURN TRUE;
+	END;
+
+

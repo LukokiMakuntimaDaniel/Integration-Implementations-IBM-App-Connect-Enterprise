@@ -1,0 +1,32 @@
+BROKER SCHEMA ao.studying.nodes.group.routing
+
+
+CREATE COMPUTE MODULE Routing_makeSub1
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		DECLARE inputRef REFERENCE TO InputRoot.JSON.Data.calculate;
+		DECLARE cont INTEGER 1;
+		DECLARE total INTEGER CARDINALITY(inputRef.numbers.Item[]);
+		DECLARE sub INTEGER inputRef.numbers.Item[cont];
+		
+		WHILE cont<=total DO
+			
+			IF cont+1<= total THEN
+				SET sub = sub - inputRef.numbers.Item[cont];
+			END IF;
+			
+			SET cont = cont+1;
+			
+		END WHILE;
+		
+		CREATE LASTCHILD OF OutputRoot.JSON.Data NAME 'response';
+		DECLARE responseRef REFERENCE TO OutputRoot.JSON.Data.response;
+		SET responseRef.operation = inputRef.operation;
+		SET responseRef.result = sub;
+		RETURN TRUE;
+		
+	END;
+
+	
+END MODULE;
