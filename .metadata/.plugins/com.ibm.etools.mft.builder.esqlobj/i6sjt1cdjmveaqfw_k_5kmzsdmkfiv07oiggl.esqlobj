@@ -1,0 +1,10 @@
+CREATE COMPUTE MODULE routeNodeXmlInput_sum
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		-- CALL CopyMessageHeaders();
+
+
+		RETURN TRUE;
+	END;
+
+END MODULE;

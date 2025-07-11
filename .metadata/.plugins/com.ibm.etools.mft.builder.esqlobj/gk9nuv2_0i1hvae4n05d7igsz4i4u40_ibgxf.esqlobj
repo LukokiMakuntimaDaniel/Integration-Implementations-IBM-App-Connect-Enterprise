@@ -1,0 +1,23 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		
+		DECLARE inputRef REFERENCE TO InputRoot.XMLNSC.calculate;
+		DECLARE cont INTEGER 1;
+		DECLARE numbersRef REFERENCE TO inputRef.numbers;
+		DECLARE elements REFERENCE TO numbersRef.value[1];
+		DECLARE div INTEGER CAST(numbersRef.value[1] as INTEGER);
+		MOVE elements NEXTSIBLING;
+		
+		WHILE LASTMOVE(elements) DO
+			SET mult = mult * CAST(elements as INTEGER);
+			MOVE elements NEXTSIBLING;
+		END WHILE;
+		
+		CREATE LASTCHILD OF OutputRoot.JSON.Data NAME 'response';
+		DECLARE responseRef REFERENCE TO OutputRoot.JSON.Data.response;
+		SET responseRef.operation = inputRef.operation;
+		SET responseRef.result = mult;
+		RETURN TRUE;
+		
+	END;
+

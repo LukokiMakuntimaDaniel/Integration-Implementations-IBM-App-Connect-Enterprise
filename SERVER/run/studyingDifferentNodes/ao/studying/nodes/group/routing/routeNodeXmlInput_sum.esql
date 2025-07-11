@@ -1,0 +1,27 @@
+BROKER SCHEMA ao.studying.nodes.group.routing
+
+
+CREATE COMPUTE MODULE routeNodeXmlInput_sum
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		DECLARE inputRef REFERENCE TO InputRoot.XMLNSC.calculate;
+		DECLARE cont INTEGER 1;
+		DECLARE numbersRef REFERENCE TO inputRef.numbers;
+		DECLARE elements REFERENCE TO numbersRef.value[1];
+		DECLARE add INTEGER 0;
+		
+		WHILE LASTMOVE(elements) DO
+			SET add =add + CAST(elements as INTEGER);
+			MOVE elements NEXTSIBLING;
+		END WHILE;
+		
+		CREATE LASTCHILD OF OutputRoot.JSON.Data NAME 'response';
+		DECLARE responseRef REFERENCE TO OutputRoot.JSON.Data.response;
+		SET responseRef.operation = inputRef.operation;
+		SET responseRef.result = add;
+		RETURN TRUE;
+		
+	END;
+
+END MODULE;

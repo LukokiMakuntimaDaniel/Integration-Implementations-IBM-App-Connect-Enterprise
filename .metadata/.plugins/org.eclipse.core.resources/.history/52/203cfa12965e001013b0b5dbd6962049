@@ -1,0 +1,11 @@
+BROKER SCHEMA ao.studying.nodes.group.routing
+
+
+CREATE COMPUTE MODULE routeNodeXmlInput_div
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+
+		RETURN TRUE;
+	END;
+
+END MODULE;
