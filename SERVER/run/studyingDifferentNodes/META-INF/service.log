@@ -1,13 +1,33 @@
 
 ==============================================
 
-!Fri Jul 11 21:38:55 WAT 2025
+!Tue Jul 15 08:42:46 WAT 2025
 
-Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput.msgflow to BAR file.
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/RouteNodeXmlInput.msgflow to BAR file.
 
-Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/labelNodeJsonInput.msgflow to BAR file.
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/LabelNodeJsonInput.msgflow to BAR file.
 
-Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/filterNodeJsonInput.msgflow to BAR file.
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/FilterNodeJsonInput.msgflow to BAR file.
+
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Scatter.msgflow to BAR file.
+
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing.msgflow to BAR file.
+
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Gather.msgflow to BAR file.
+
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Complete.msgflow to BAR file.
+
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Complete_Compute.esql to BAR file.
+
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeDiv.esql to BAR file.
+
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeMult.esql to BAR file.
+
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeSub.esql to BAR file.
+
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeSum.esql to BAR file.
+
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Scatter_source.esql to BAR file.
 
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_Compute.esql to BAR file.
 

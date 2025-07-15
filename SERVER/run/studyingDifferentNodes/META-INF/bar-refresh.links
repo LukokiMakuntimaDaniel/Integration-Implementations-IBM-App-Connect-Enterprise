@@ -1,6 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
   <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1752564349186" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/grouping/Complete.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/grouping/Complete.msgflow.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Complete.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="ao/studying/nodes/group/grouping/Complete.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1752561311363" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/grouping/Complete_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/grouping/Complete_Compute.esql.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Complete_Compute.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="ao/studying/nodes/group/grouping/Complete_Compute.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1752561877480" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/grouping/Gather.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/grouping/Gather.msgflow.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Gather.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="ao/studying/nodes/group/grouping/Gather.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1752519311337" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing.msgflow.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="ao/studying/nodes/group/grouping/Processing.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1752563237878" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeDiv.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeDiv.esql.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeDiv.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="ao/studying/nodes/group/grouping/Processing_makeDiv.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1752563247880" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeMult.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeMult.esql.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeMult.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="ao/studying/nodes/group/grouping/Processing_makeMult.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1752563243120" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeSub.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeSub.esql.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeSub.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="ao/studying/nodes/group/grouping/Processing_makeSub.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1752563233293" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeSum.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeSum.esql.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeSum.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="ao/studying/nodes/group/grouping/Processing_makeSum.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1752561349256" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/grouping/Scatter.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/grouping/Scatter.msgflow.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Scatter.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="ao/studying/nodes/group/grouping/Scatter.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1752565351564" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/grouping/Scatter_source.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/grouping/Scatter_source.esql.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Scatter_source.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="ao/studying/nodes/group/grouping/Scatter_source.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1752267804643" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/routing/FilterNodeJsonInput.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/FilterNodeJsonInput.msgflow.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/FilterNodeJsonInput.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="ao/studying/nodes/group/routing/FilterNodeJsonInput.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1752267819207" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/routing/LabelNodeJsonInput.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/LabelNodeJsonInput.msgflow.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/LabelNodeJsonInput.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="ao/studying/nodes/group/routing/LabelNodeJsonInput.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1752267833095" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/routing/RouteNodeXmlInput.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/RouteNodeXmlInput.msgflow.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/RouteNodeXmlInput.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="ao/studying/nodes/group/routing/RouteNodeXmlInput.msgflow"/>
+    </deployable>
     <deployable deployed="true" barResourceTimeStamp="1752172448754" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_Compute.esql">
       <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_Compute.esql.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_Compute.esql to BAR file.&#xA;" severity="0"/>
       <barEntry name="ao/studying/nodes/group/routing/Routing_Compute.esql"/>
@@ -37,35 +89,23 @@
       <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_unknown.esql.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_unknown.esql to BAR file.&#xA;" severity="0"/>
       <barEntry name="ao/studying/nodes/group/routing/Routing_unknown.esql"/>
     </deployable>
-    <deployable deployed="true" barResourceTimeStamp="1752259814938" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/routing/filterNodeJsonInput.msgflow">
-      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/filterNodeJsonInput.msgflow.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/filterNodeJsonInput.msgflow to BAR file.&#xA;" severity="0"/>
-      <barEntry name="ao/studying/nodes/group/routing/filterNodeJsonInput.msgflow"/>
-    </deployable>
-    <deployable deployed="true" barResourceTimeStamp="1752259833489" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/routing/labelNodeJsonInput.msgflow">
-      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/labelNodeJsonInput.msgflow.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/labelNodeJsonInput.msgflow to BAR file.&#xA;" severity="0"/>
-      <barEntry name="ao/studying/nodes/group/routing/labelNodeJsonInput.msgflow"/>
-    </deployable>
-    <deployable deployed="true" barResourceTimeStamp="1752265440117" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput.msgflow">
-      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput.msgflow.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput.msgflow to BAR file.&#xA;" severity="0"/>
-      <barEntry name="ao/studying/nodes/group/routing/routeNodeXmlInput.msgflow"/>
-    </deployable>
-    <deployable deployed="true" barResourceTimeStamp="1752262191616" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_default.esql">
+    <deployable deployed="true" barResourceTimeStamp="1752266595454" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_default.esql">
       <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_default.esql.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_default.esql to BAR file.&#xA;" severity="0"/>
       <barEntry name="ao/studying/nodes/group/routing/routeNodeXmlInput_default.esql"/>
     </deployable>
-    <deployable deployed="true" barResourceTimeStamp="1752266068231" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_div.esql">
+    <deployable deployed="true" barResourceTimeStamp="1752266595454" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_div.esql">
       <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_div.esql.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_div.esql to BAR file.&#xA;" severity="0"/>
       <barEntry name="ao/studying/nodes/group/routing/routeNodeXmlInput_div.esql"/>
     </deployable>
-    <deployable deployed="true" barResourceTimeStamp="1752265804360" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_mult.esql">
+    <deployable deployed="true" barResourceTimeStamp="1752266595454" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_mult.esql">
       <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_mult.esql.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_mult.esql to BAR file.&#xA;" severity="0"/>
       <barEntry name="ao/studying/nodes/group/routing/routeNodeXmlInput_mult.esql"/>
     </deployable>
-    <deployable deployed="true" barResourceTimeStamp="1752266329292" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_sub.esql">
+    <deployable deployed="true" barResourceTimeStamp="1752266595454" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_sub.esql">
       <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_sub.esql.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_sub.esql to BAR file.&#xA;" severity="0"/>
       <barEntry name="ao/studying/nodes/group/routing/routeNodeXmlInput_sub.esql"/>
     </deployable>
-    <deployable deployed="true" barResourceTimeStamp="1752264001539" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_sum.esql">
+    <deployable deployed="true" barResourceTimeStamp="1752266595454" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_sum.esql">
       <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_sum.esql.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_sum.esql to BAR file.&#xA;" severity="0"/>
       <barEntry name="ao/studying/nodes/group/routing/routeNodeXmlInput_sum.esql"/>
     </deployable>

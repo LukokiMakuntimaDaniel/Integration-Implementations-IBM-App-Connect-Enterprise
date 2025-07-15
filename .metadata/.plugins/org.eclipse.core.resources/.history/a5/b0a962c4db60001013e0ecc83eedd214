@@ -1,0 +1,14 @@
+BROKER SCHEMA ao.studying.nodes.group.grouping
+
+
+CREATE COMPUTE MODULE Scatter_source
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		
+		SET OutputLocalEnvironment.Destination.GroupScatter.Context = InputLocalEnvironment.Destination.Context;
+		
+		RETURN TRUE;
+	END;
+
+END MODULE;

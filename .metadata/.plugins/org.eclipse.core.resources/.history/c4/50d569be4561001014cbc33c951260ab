@@ -1,0 +1,10 @@
+BROKER SCHEMA ao.studying.nodes.group.grouping
+
+
+CREATE COMPUTE MODULE Complete_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		SET OutputRoot.JSON.Data = InputRoot;
+		RETURN TRUE;
+	END;
+END MODULE;

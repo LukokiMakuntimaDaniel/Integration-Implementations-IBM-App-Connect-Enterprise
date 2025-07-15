@@ -1,0 +1,11 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		
+		
+		CREATE FIELD Environment.Variables.calculate.numbers IDENTITY(JSON.Array)numbers;
+		SET OutputLocalEnvironment.ariables.calculate.numbers.Item[] =  InputRoot.JSON.Data.calculate.numbers.Item[];
+		SET OutputLocalEnvironment.Destination.GroupScatter.Context = InputLocalEnvironment.Destination.Context;
+		
+		RETURN TRUE;
+	END;
+

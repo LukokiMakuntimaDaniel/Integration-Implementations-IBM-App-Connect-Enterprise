@@ -1,126 +1,196 @@
 
 ==============================================
 
-!Fri Jul 11 21:38:55 WAT 2025
+!Tue Jul 15 08:42:46 WAT 2025
 
-Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput.msgflow.
-Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput.msgflow to BAR file.
-
-==============================================
-
-!Fri Jul 11 21:38:55 WAT 2025
-
-Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/labelNodeJsonInput.msgflow.
-Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/labelNodeJsonInput.msgflow to BAR file.
+Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/RouteNodeXmlInput.msgflow.
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/RouteNodeXmlInput.msgflow to BAR file.
 
 ==============================================
 
-!Fri Jul 11 21:38:55 WAT 2025
+!Tue Jul 15 08:42:46 WAT 2025
 
-Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/filterNodeJsonInput.msgflow.
-Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/filterNodeJsonInput.msgflow to BAR file.
+Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/LabelNodeJsonInput.msgflow.
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/LabelNodeJsonInput.msgflow to BAR file.
 
 ==============================================
 
-!Fri Jul 11 21:38:55 WAT 2025
+!Tue Jul 15 08:42:46 WAT 2025
+
+Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/FilterNodeJsonInput.msgflow.
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/FilterNodeJsonInput.msgflow to BAR file.
+
+==============================================
+
+!Tue Jul 15 08:42:46 WAT 2025
+
+Processing file studyingDifferentNodes/ao/studying/nodes/group/grouping/Scatter.msgflow.
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Scatter.msgflow to BAR file.
+
+==============================================
+
+!Tue Jul 15 08:42:46 WAT 2025
+
+Processing file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing.msgflow.
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing.msgflow to BAR file.
+
+==============================================
+
+!Tue Jul 15 08:42:46 WAT 2025
+
+Processing file studyingDifferentNodes/ao/studying/nodes/group/grouping/Gather.msgflow.
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Gather.msgflow to BAR file.
+
+==============================================
+
+!Tue Jul 15 08:42:46 WAT 2025
+
+Processing file studyingDifferentNodes/ao/studying/nodes/group/grouping/Complete.msgflow.
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Complete.msgflow to BAR file.
+
+==============================================
+
+!Tue Jul 15 08:42:46 WAT 2025
+
+Processing file studyingDifferentNodes/ao/studying/nodes/group/grouping/Complete_Compute.esql.
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Complete_Compute.esql to BAR file.
+
+==============================================
+
+!Tue Jul 15 08:42:46 WAT 2025
+
+Processing file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeDiv.esql.
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeDiv.esql to BAR file.
+
+==============================================
+
+!Tue Jul 15 08:42:46 WAT 2025
+
+Processing file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeMult.esql.
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeMult.esql to BAR file.
+
+==============================================
+
+!Tue Jul 15 08:42:46 WAT 2025
+
+Processing file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeSub.esql.
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeSub.esql to BAR file.
+
+==============================================
+
+!Tue Jul 15 08:42:46 WAT 2025
+
+Processing file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeSum.esql.
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Processing_makeSum.esql to BAR file.
+
+==============================================
+
+!Tue Jul 15 08:42:46 WAT 2025
+
+Processing file studyingDifferentNodes/ao/studying/nodes/group/grouping/Scatter_source.esql.
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Scatter_source.esql to BAR file.
+
+==============================================
+
+!Tue Jul 15 08:42:46 WAT 2025
 
 Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_Compute.esql.
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_Compute.esql to BAR file.
 
 ==============================================
 
-!Fri Jul 11 21:38:55 WAT 2025
+!Tue Jul 15 08:42:46 WAT 2025
 
 Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_Compute1.esql.
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_Compute1.esql to BAR file.
 
 ==============================================
 
-!Fri Jul 11 21:38:55 WAT 2025
+!Tue Jul 15 08:42:46 WAT 2025
 
 Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_Filter.esql.
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_Filter.esql to BAR file.
 
 ==============================================
 
-!Fri Jul 11 21:38:55 WAT 2025
+!Tue Jul 15 08:42:46 WAT 2025
 
 Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_choose.esql.
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_choose.esql to BAR file.
 
 ==============================================
 
-!Fri Jul 11 21:38:55 WAT 2025
+!Tue Jul 15 08:42:46 WAT 2025
 
 Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_makeDiv.esql.
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_makeDiv.esql to BAR file.
 
 ==============================================
 
-!Fri Jul 11 21:38:55 WAT 2025
+!Tue Jul 15 08:42:46 WAT 2025
 
 Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_makeMult.esql.
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_makeMult.esql to BAR file.
 
 ==============================================
 
-!Fri Jul 11 21:38:55 WAT 2025
+!Tue Jul 15 08:42:46 WAT 2025
 
 Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_makeSub1.esql.
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_makeSub1.esql to BAR file.
 
 ==============================================
 
-!Fri Jul 11 21:38:55 WAT 2025
+!Tue Jul 15 08:42:46 WAT 2025
 
 Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_makeSum.esql.
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_makeSum.esql to BAR file.
 
 ==============================================
 
-!Fri Jul 11 21:38:55 WAT 2025
+!Tue Jul 15 08:42:46 WAT 2025
 
 Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_unknown.esql.
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/Routing_unknown.esql to BAR file.
 
 ==============================================
 
-!Fri Jul 11 21:38:55 WAT 2025
+!Tue Jul 15 08:42:46 WAT 2025
 
 Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_default.esql.
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_default.esql to BAR file.
 
 ==============================================
 
-!Fri Jul 11 21:38:55 WAT 2025
+!Tue Jul 15 08:42:46 WAT 2025
 
 Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_div.esql.
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_div.esql to BAR file.
 
 ==============================================
 
-!Fri Jul 11 21:38:55 WAT 2025
+!Tue Jul 15 08:42:46 WAT 2025
 
 Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_mult.esql.
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_mult.esql to BAR file.
 
 ==============================================
 
-!Fri Jul 11 21:38:55 WAT 2025
+!Tue Jul 15 08:42:46 WAT 2025
 
 Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_sub.esql.
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_sub.esql to BAR file.
 
 ==============================================
 
-!Fri Jul 11 21:38:55 WAT 2025
+!Tue Jul 15 08:42:46 WAT 2025
 
 Processing file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_sum.esql.
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/routeNodeXmlInput_sum.esql to BAR file.
 
 ==============================================
 
-!Fri Jul 11 21:38:55 WAT 2025
+!Tue Jul 15 08:42:46 WAT 2025
 
 Processing file studyingDifferentNodes/application.descriptor.
 Successfully added file studyingDifferentNodes/application.descriptor to BAR file.
@@ -130,7 +200,7 @@ Successfully added file studyingDifferentNodes/application.descriptor to BAR fil
 
 ==============================================
 
-!Fri Jul 11 21:38:55 WAT 2025
+!Tue Jul 15 08:42:46 WAT 2025
 
 Processing file studyingDifferentNodes/application.descriptor.
 Successfully added file studyingDifferentNodes/application.descriptor to BAR file.

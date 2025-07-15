@@ -1,0 +1,9 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		
+		
+		SET LocalEnvironment.Destination.GroupScatter.Context = InputLocalEnvironment.Destination.Context;
+		
+		RETURN TRUE;
+	END;
+

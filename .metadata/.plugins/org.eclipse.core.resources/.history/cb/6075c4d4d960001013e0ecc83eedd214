@@ -1,0 +1,12 @@
+BROKER SCHEMA ao.studying.nodes.group.grouping
+
+
+CREATE COMPUTE MODULE Complete_source
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+
+
+		RETURN TRUE;
+	END;
+
+END MODULE;

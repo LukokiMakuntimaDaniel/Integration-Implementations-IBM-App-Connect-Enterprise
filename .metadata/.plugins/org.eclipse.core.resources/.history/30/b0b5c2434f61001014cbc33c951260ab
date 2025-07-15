@@ -1,0 +1,16 @@
+BROKER SCHEMA ao.studying.nodes.group.grouping
+
+
+CREATE COMPUTE MODULE Scatter_source
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		CREATE FIELD Environment.Variables.calculate.numbers IDENTITY(JSON.Array)numbers;
+		SET OutputLocalEnvironment.Variables.calculate.numbers.Item[] =  InputRoot.JSON.Data.calculate.numbers.Item[];
+		SET OutputLocalEnvironment.Destination.GroupScatter.Context = InputLocalEnvironment.Destination;
+		SET OutputLocalEnvironment = Environment;
+		RETURN TRUE;
+		
+	END;
+
+END MODULE;

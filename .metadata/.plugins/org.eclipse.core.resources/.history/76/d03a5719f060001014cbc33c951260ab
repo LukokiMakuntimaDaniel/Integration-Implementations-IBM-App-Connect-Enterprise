@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ComIbmCallableFlowAsyncResponse.msgnode="ComIbmCallableFlowAsyncResponse.msgnode" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:eflow="http://www.ibm.com/wbi/2005/eflow" xmlns:utility="http://www.ibm.com/wbi/2005/eflow_utility" nsURI="ao/studying/nodes/group/grouping/Gather.msgflow" nsPrefix="ao_studying_nodes_group_grouping_Gather.msgflow">
+  <eClassifiers xmi:type="eflow:FCMComposite" name="FCMComposite_1" nodeLayoutStyle="RECTANGLE">
+    <eSuperTypes href="http://www.ibm.com/wbi/2005/eflow#//FCMBlock"/>
+    <translation xmi:type="utility:TranslatableString" key="Gather" bundleName="ao/studying/nodes/group/grouping/Gather" pluginId="studyingDifferentNodes"/>
+    <colorGraphic16 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/studyingDifferentNodes/icons/full/obj16/Gather.gif"/>
+    <colorGraphic32 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/studyingDifferentNodes/icons/full/obj30/Gather.gif"/>
+    <composition>
+      <nodes xmi:type="ComIbmCallableFlowAsyncResponse.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="75,91" asyncResponseCorrelator="Sum Flow Async Invoke">
+        <translation xmi:type="utility:ConstantString" string="Sum Callable Flow Async Response"/>
+      </nodes>
+      <nodes xmi:type="ComIbmCallableFlowAsyncResponse.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_2" location="75,156" asyncResponseCorrelator="Div Flow Async Invoke">
+        <translation xmi:type="utility:ConstantString" string="Div Callable Flow Async Response"/>
+      </nodes>
+      <nodes xmi:type="ComIbmCallableFlowAsyncResponse.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_3" location="74,223">
+        <translation xmi:type="utility:ConstantString" string="Sub Callable Flow Async Response"/>
+      </nodes>
+      <nodes xmi:type="ComIbmCallableFlowAsyncResponse.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_4" location="75,294">
+        <translation xmi:type="utility:ConstantString" string="Mult Callable Flow Async Response"/>
+      </nodes>
+    </composition>
+    <propertyOrganizer/>
+    <stickyBoard/>
+  </eClassifiers>
+</ecore:EPackage>

@@ -1,0 +1,11 @@
+CREATE COMPUTE MODULE Scatter_source
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		
+		SET LocalEnvironment.Destination.GroupScatter.Context = InputLocalEnvironment.Destination.Context;
+		
+		RETURN TRUE;
+	END;
+
+END MODULE;

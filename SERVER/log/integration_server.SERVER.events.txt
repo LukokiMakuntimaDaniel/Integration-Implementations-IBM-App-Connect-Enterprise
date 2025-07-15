@@ -1,123 +1,319 @@
-2025-07-11 20:00:18.137962Z: [Thread 6356] (Msg 1/1) BIP1990I: Integration server 'SERVER' starting initialization; version '12.0.12.13' (64-bit) 
-2025-07-11 20:00:18.165298Z: [Thread 6356] (Msg 1/1) BIP9905I: Initializing resource managers. 
-2025-07-11 20:00:18.801734Z: [Thread 6356] (Msg 1/1) BIP10112I: The resources from 'mqsicdc.par' have not been loaded because the runtime component 'ChangeDataCapture' has not been enabled. Reason: 'Restricted by Java Runtime selected'. Further detail: '/home/lukoki-makuntima-daniel/Documentos/ace-12.0.12.13/common/jdk/jre/embedded.java.yaml'. 
-2025-07-11 20:00:19.158528Z: [Thread 6356] (Msg 1/1) BIP10112I: The resources from 'imbopentelemetry.lil' have not been loaded because the runtime component 'OpenTelemetry' has not been enabled. Reason: 'Integration Server Configuration'. Further detail: 'server.conf.yaml'. 
-2025-07-11 20:00:21.790604Z: [Thread 6356] (Msg 1/1) BIP9906I: Reading deployed resources. 
-2025-07-11 20:00:21.801250Z: [Thread 6356] (Msg 1/1) BIP9907I: Initializing deployed resources. 
-2025-07-11 20:00:21.802852Z: [Thread 6356] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:00:21.838434Z: [Thread 6356] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'fistProject' of type 'RestAPI'. 
-2025-07-11 20:00:22.313578Z: [Thread 6356] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:00:22.336000Z: [Thread 6356] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
-2025-07-11 20:00:22.336296Z: [Thread 6356] (Msg 1/1) BIP1996I: Listening on HTTP URL '/filter'. 
-2025-07-11 20:00:22.336874Z: [Thread 6356] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.filterNode' (uuid='ao.studying.nodes.group.routing.filterNode',type='MessageFlow') started successfully. 
-2025-07-11 20:00:22.337512Z: [Thread 6356] (Msg 1/1) BIP1996I: Listening on HTTP URL '/label'. 
-2025-07-11 20:00:22.337722Z: [Thread 6356] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.labelNode' (uuid='ao.studying.nodes.group.routing.labelNode',type='MessageFlow') started successfully. 
-2025-07-11 20:00:22.337870Z: [Thread 6356] (Msg 1/1) BIP9332I: Application 'studyingDifferentNodes' has been reloaded successfully. 
-2025-07-11 20:00:22.337984Z: [Thread 6356] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'fistProject' of type 'RestAPI'. 
-2025-07-11 20:00:22.338434Z: [Thread 6356] (Msg 1/1) BIP1996I: Listening on HTTP URL '/fistproject/v1*'. 
-2025-07-11 20:00:22.338712Z: [Thread 6356] (Msg 1/1) BIP2269I: Deployed resource 'gen.fistProject' (uuid='gen.fistProject',type='MessageFlow') started successfully. 
-2025-07-11 20:00:22.338848Z: [Thread 6356] (Msg 1/1) BIP9332I: RestAPI 'fistProject' has been reloaded successfully. 
-2025-07-11 20:00:22.736422Z: [Thread 6454] (Msg 1/1) BIP2866I: IBM App Connect Enterprise administration security is inactive. 
-2025-07-11 20:00:22.755194Z: [Thread 6454] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7600' for 'RestAdmin http' connections. 
-2025-07-11 20:00:22.759110Z: [Thread 6356] (Msg 1/1) BIP1991I: Integration server has finished initialization. 
-2025-07-11 20:10:15.224922Z: [Thread 6371] (Msg 1/1) BIP2152I: Configuration message received. 
-2025-07-11 20:10:15.240600Z: [Thread 6371] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:10:19.334348Z: [Thread 6371] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.filterNode' (uuid='ao.studying.nodes.group.routing.filterNode',type='MessageFlow') successfully stopped. 
-2025-07-11 20:10:19.335500Z: [Thread 6371] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.labelNode' (uuid='ao.studying.nodes.group.routing.labelNode',type='MessageFlow') successfully stopped. 
-2025-07-11 20:10:19.335840Z: [Thread 6371] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:10:19.426104Z: [Thread 6371] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:10:19.508878Z: [Thread 6371] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:10:19.509264Z: [Thread 6371] (Msg 1/1) BIP1996I: Listening on HTTP URL '/filter'. 
-2025-07-11 20:10:19.509404Z: [Thread 6371] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.filterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.filterNodeJsonInput',type='MessageFlow') started successfully. 
-2025-07-11 20:10:19.509678Z: [Thread 6371] (Msg 1/1) BIP1996I: Listening on HTTP URL '/label'. 
-2025-07-11 20:10:19.509778Z: [Thread 6371] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.labelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.labelNodeJsonInput',type='MessageFlow') started successfully. 
-2025-07-11 20:10:19.510078Z: [Thread 6371] (Msg 1/1) BIP1996I: Listening on HTTP URL '/route'. 
-2025-07-11 20:10:19.510218Z: [Thread 6371] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.routeNodeXmlInput' (uuid='ao.studying.nodes.group.routing.routeNodeXmlInput',type='MessageFlow') started successfully. 
-2025-07-11 20:10:19.510286Z: [Thread 6371] (Msg 1/1) BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
-2025-07-11 20:10:19.510346Z: [Thread 6371] (Msg 1/1) BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
-2025-07-11 20:10:19.510478Z: [Thread 6371] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
-2025-07-11 20:24:06.424025Z: [Thread 6378] (Msg 1/1) BIP2152I: Configuration message received. 
-2025-07-11 20:24:06.436396Z: [Thread 6378] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:24:10.573485Z: [Thread 6378] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.filterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.filterNodeJsonInput',type='MessageFlow') successfully stopped. 
-2025-07-11 20:24:10.574468Z: [Thread 6378] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.labelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.labelNodeJsonInput',type='MessageFlow') successfully stopped. 
-2025-07-11 20:24:10.575544Z: [Thread 6378] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.routeNodeXmlInput' (uuid='ao.studying.nodes.group.routing.routeNodeXmlInput',type='MessageFlow') successfully stopped. 
-2025-07-11 20:24:10.575883Z: [Thread 6378] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:24:10.672021Z: [Thread 6378] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:24:10.731626Z: [Thread 6378] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:24:10.732096Z: [Thread 6378] (Msg 1/1) BIP1996I: Listening on HTTP URL '/filter'. 
-2025-07-11 20:24:10.732215Z: [Thread 6378] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.filterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.filterNodeJsonInput',type='MessageFlow') started successfully. 
-2025-07-11 20:24:10.732589Z: [Thread 6378] (Msg 1/1) BIP1996I: Listening on HTTP URL '/label'. 
-2025-07-11 20:24:10.732704Z: [Thread 6378] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.labelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.labelNodeJsonInput',type='MessageFlow') started successfully. 
-2025-07-11 20:24:10.733050Z: [Thread 6378] (Msg 1/1) BIP1996I: Listening on HTTP URL '/route'. 
-2025-07-11 20:24:10.733179Z: [Thread 6378] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.routeNodeXmlInput' (uuid='ao.studying.nodes.group.routing.routeNodeXmlInput',type='MessageFlow') started successfully. 
-2025-07-11 20:24:10.733267Z: [Thread 6378] (Msg 1/1) BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
-2025-07-11 20:24:10.733344Z: [Thread 6378] (Msg 1/1) BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
-2025-07-11 20:24:10.733518Z: [Thread 6378] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
-2025-07-11 20:26:16.109449Z: [Thread 6372] (Msg 1/1) BIP2152I: Configuration message received. 
-2025-07-11 20:26:16.119902Z: [Thread 6372] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:26:17.746232Z: [Thread 6372] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.filterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.filterNodeJsonInput',type='MessageFlow') successfully stopped. 
-2025-07-11 20:26:17.747726Z: [Thread 6372] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.labelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.labelNodeJsonInput',type='MessageFlow') successfully stopped. 
-2025-07-11 20:26:17.748630Z: [Thread 6372] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.routeNodeXmlInput' (uuid='ao.studying.nodes.group.routing.routeNodeXmlInput',type='MessageFlow') successfully stopped. 
-2025-07-11 20:26:17.748858Z: [Thread 6372] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:26:17.845352Z: [Thread 6372] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:26:17.914944Z: [Thread 6372] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:26:17.915352Z: [Thread 6372] (Msg 1/1) BIP1996I: Listening on HTTP URL '/filter'. 
-2025-07-11 20:26:17.915486Z: [Thread 6372] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.filterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.filterNodeJsonInput',type='MessageFlow') started successfully. 
-2025-07-11 20:26:17.915782Z: [Thread 6372] (Msg 1/1) BIP1996I: Listening on HTTP URL '/label'. 
-2025-07-11 20:26:17.915924Z: [Thread 6372] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.labelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.labelNodeJsonInput',type='MessageFlow') started successfully. 
-2025-07-11 20:26:17.916220Z: [Thread 6372] (Msg 1/1) BIP1996I: Listening on HTTP URL '/route'. 
-2025-07-11 20:26:17.916388Z: [Thread 6372] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.routeNodeXmlInput' (uuid='ao.studying.nodes.group.routing.routeNodeXmlInput',type='MessageFlow') started successfully. 
-2025-07-11 20:26:17.916446Z: [Thread 6372] (Msg 1/1) BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
-2025-07-11 20:26:17.916482Z: [Thread 6372] (Msg 1/1) BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
-2025-07-11 20:26:17.916598Z: [Thread 6372] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
-2025-07-11 20:30:37.115444Z: [Thread 6374] (Msg 1/1) BIP2152I: Configuration message received. 
-2025-07-11 20:30:37.133056Z: [Thread 6374] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:30:39.935396Z: [Thread 6374] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.filterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.filterNodeJsonInput',type='MessageFlow') successfully stopped. 
-2025-07-11 20:30:39.936224Z: [Thread 6374] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.labelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.labelNodeJsonInput',type='MessageFlow') successfully stopped. 
-2025-07-11 20:30:39.936952Z: [Thread 6374] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.routeNodeXmlInput' (uuid='ao.studying.nodes.group.routing.routeNodeXmlInput',type='MessageFlow') successfully stopped. 
-2025-07-11 20:30:39.937184Z: [Thread 6374] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:30:40.025208Z: [Thread 6374] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:30:40.089964Z: [Thread 6374] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:30:40.090400Z: [Thread 6374] (Msg 1/1) BIP1996I: Listening on HTTP URL '/filter'. 
-2025-07-11 20:30:40.090536Z: [Thread 6374] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.filterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.filterNodeJsonInput',type='MessageFlow') started successfully. 
-2025-07-11 20:30:40.090872Z: [Thread 6374] (Msg 1/1) BIP1996I: Listening on HTTP URL '/label'. 
-2025-07-11 20:30:40.091012Z: [Thread 6374] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.labelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.labelNodeJsonInput',type='MessageFlow') started successfully. 
-2025-07-11 20:30:40.091324Z: [Thread 6374] (Msg 1/1) BIP1996I: Listening on HTTP URL '/route'. 
-2025-07-11 20:30:40.091512Z: [Thread 6374] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.routeNodeXmlInput' (uuid='ao.studying.nodes.group.routing.routeNodeXmlInput',type='MessageFlow') started successfully. 
-2025-07-11 20:30:40.091576Z: [Thread 6374] (Msg 1/1) BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
-2025-07-11 20:30:40.091612Z: [Thread 6374] (Msg 1/1) BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
-2025-07-11 20:30:40.091760Z: [Thread 6374] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
-2025-07-11 20:35:16.625153Z: [Thread 6370] (Msg 1/1) BIP2152I: Configuration message received. 
-2025-07-11 20:35:16.640198Z: [Thread 6370] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:35:21.113558Z: [Thread 6370] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.filterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.filterNodeJsonInput',type='MessageFlow') successfully stopped. 
-2025-07-11 20:35:21.114444Z: [Thread 6370] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.labelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.labelNodeJsonInput',type='MessageFlow') successfully stopped. 
-2025-07-11 20:35:21.115666Z: [Thread 6370] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.routeNodeXmlInput' (uuid='ao.studying.nodes.group.routing.routeNodeXmlInput',type='MessageFlow') successfully stopped. 
-2025-07-11 20:35:21.115972Z: [Thread 6370] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:35:21.158878Z: [Thread 6370] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:35:21.220572Z: [Thread 6370] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:35:21.221098Z: [Thread 6370] (Msg 1/1) BIP1996I: Listening on HTTP URL '/filter'. 
-2025-07-11 20:35:21.221294Z: [Thread 6370] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.filterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.filterNodeJsonInput',type='MessageFlow') started successfully. 
-2025-07-11 20:35:21.221850Z: [Thread 6370] (Msg 1/1) BIP1996I: Listening on HTTP URL '/label'. 
-2025-07-11 20:35:21.222072Z: [Thread 6370] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.labelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.labelNodeJsonInput',type='MessageFlow') started successfully. 
-2025-07-11 20:35:21.222592Z: [Thread 6370] (Msg 1/1) BIP1996I: Listening on HTTP URL '/route'. 
-2025-07-11 20:35:21.222876Z: [Thread 6370] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.routeNodeXmlInput' (uuid='ao.studying.nodes.group.routing.routeNodeXmlInput',type='MessageFlow') started successfully. 
-2025-07-11 20:35:21.222958Z: [Thread 6370] (Msg 1/1) BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
-2025-07-11 20:35:21.223014Z: [Thread 6370] (Msg 1/1) BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
-2025-07-11 20:35:21.223232Z: [Thread 6370] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
-2025-07-11 20:38:55.981904Z: [Thread 6371] (Msg 1/1) BIP2152I: Configuration message received. 
-2025-07-11 20:38:55.993924Z: [Thread 6371] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:38:58.239352Z: [Thread 6371] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.filterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.filterNodeJsonInput',type='MessageFlow') successfully stopped. 
-2025-07-11 20:38:58.240044Z: [Thread 6371] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.labelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.labelNodeJsonInput',type='MessageFlow') successfully stopped. 
-2025-07-11 20:38:58.653120Z: [Thread 6371] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.routeNodeXmlInput' (uuid='ao.studying.nodes.group.routing.routeNodeXmlInput',type='MessageFlow') successfully stopped. 
-2025-07-11 20:38:58.653452Z: [Thread 6371] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:38:58.730496Z: [Thread 6371] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:38:58.794348Z: [Thread 6371] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-11 20:38:58.794724Z: [Thread 6371] (Msg 1/1) BIP1996I: Listening on HTTP URL '/filter'. 
-2025-07-11 20:38:58.794856Z: [Thread 6371] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.filterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.filterNodeJsonInput',type='MessageFlow') started successfully. 
-2025-07-11 20:38:58.795160Z: [Thread 6371] (Msg 1/1) BIP1996I: Listening on HTTP URL '/label'. 
-2025-07-11 20:38:58.795324Z: [Thread 6371] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.labelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.labelNodeJsonInput',type='MessageFlow') started successfully. 
-2025-07-11 20:38:58.795616Z: [Thread 6371] (Msg 1/1) BIP1996I: Listening on HTTP URL '/route'. 
-2025-07-11 20:38:58.795776Z: [Thread 6371] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.routeNodeXmlInput' (uuid='ao.studying.nodes.group.routing.routeNodeXmlInput',type='MessageFlow') started successfully. 
-2025-07-11 20:38:58.795832Z: [Thread 6371] (Msg 1/1) BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
-2025-07-11 20:38:58.795876Z: [Thread 6371] (Msg 1/1) BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
-2025-07-11 20:38:58.796004Z: [Thread 6371] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-07-15 06:35:59.567356Z: [Thread 16544] (Msg 1/1) BIP1990I: Integration server 'SERVER' starting initialization; version '12.0.12.13' (64-bit) 
+2025-07-15 06:35:59.584740Z: [Thread 16544] (Msg 1/1) BIP9905I: Initializing resource managers. 
+2025-07-15 06:36:00.057031Z: [Thread 16544] (Msg 1/1) BIP10112I: The resources from 'mqsicdc.par' have not been loaded because the runtime component 'ChangeDataCapture' has not been enabled. Reason: 'Restricted by Java Runtime selected'. Further detail: '/home/lukoki-makuntima-daniel/Documentos/ace-12.0.12.13/common/jdk/jre/embedded.java.yaml'. 
+2025-07-15 06:36:00.329719Z: [Thread 16544] (Msg 1/1) BIP10112I: The resources from 'imbopentelemetry.lil' have not been loaded because the runtime component 'OpenTelemetry' has not been enabled. Reason: 'Integration Server Configuration'. Further detail: 'server.conf.yaml'. 
+2025-07-15 06:36:02.463044Z: [Thread 16544] (Msg 1/1) BIP9906I: Reading deployed resources. 
+2025-07-15 06:36:02.472970Z: [Thread 16544] (Msg 1/1) BIP9907I: Initializing deployed resources. 
+2025-07-15 06:36:02.474675Z: [Thread 16544] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 06:36:02.514390Z: [Thread 16544] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'fistProject' of type 'RestAPI'. 
+2025-07-15 06:36:02.934527Z: [Thread 16544] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 06:36:02.956080Z: [Thread 16544] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2025-07-15 06:36:02.956326Z: [Thread 16544] (Msg 1/1) BIP1996I: Listening on HTTP URL '/filter'. 
+2025-07-15 06:36:02.956626Z: [Thread 16544] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.filterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.filterNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 06:36:02.957161Z: [Thread 16544] (Msg 1/1) BIP1996I: Listening on HTTP URL '/label'. 
+2025-07-15 06:36:02.957315Z: [Thread 16544] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.labelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.labelNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 06:36:02.957812Z: [Thread 16544] (Msg 1/1) BIP1996I: Listening on HTTP URL '/route'. 
+2025-07-15 06:36:02.958024Z: [Thread 16544] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.routeNodeXmlInput' (uuid='ao.studying.nodes.group.routing.routeNodeXmlInput',type='MessageFlow') started successfully. 
+2025-07-15 06:36:02.958128Z: [Thread 16544] (Msg 1/1) BIP9332I: Application 'studyingDifferentNodes' has been reloaded successfully. 
+2025-07-15 06:36:02.958274Z: [Thread 16544] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'fistProject' of type 'RestAPI'. 
+2025-07-15 06:36:02.958690Z: [Thread 16544] (Msg 1/1) BIP1996I: Listening on HTTP URL '/fistproject/v1*'. 
+2025-07-15 06:36:02.958898Z: [Thread 16544] (Msg 1/1) BIP2269I: Deployed resource 'gen.fistProject' (uuid='gen.fistProject',type='MessageFlow') started successfully. 
+2025-07-15 06:36:02.958980Z: [Thread 16544] (Msg 1/1) BIP9332I: RestAPI 'fistProject' has been reloaded successfully. 
+2025-07-15 06:36:03.261390Z: [Thread 16641] (Msg 1/1) BIP2866I: IBM App Connect Enterprise administration security is inactive. 
+2025-07-15 06:36:03.280110Z: [Thread 16641] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7600' for 'RestAdmin http' connections. 
+2025-07-15 06:36:03.284654Z: [Thread 16544] (Msg 1/1) BIP1991I: Integration server has finished initialization. 
+2025-07-15 06:36:14.886324Z: [Thread 16562] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-07-15 06:36:14.901109Z: [Thread 16562] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 06:36:18.909342Z: [Thread 16562] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.filterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.filterNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-15 06:36:18.910304Z: [Thread 16562] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.labelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.labelNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-15 06:36:18.911200Z: [Thread 16562] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.routeNodeXmlInput' (uuid='ao.studying.nodes.group.routing.routeNodeXmlInput',type='MessageFlow') successfully stopped. 
+2025-07-15 06:36:18.911454Z: [Thread 16562] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 06:36:19.015290Z: [Thread 16562] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 06:36:19.105340Z: [Thread 16562] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 06:36:19.105670Z: [Thread 16562] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Complete' (uuid='ao.studying.nodes.group.grouping.Complete',type='MessageFlow') started successfully. 
+2025-07-15 06:36:19.105982Z: [Thread 16562] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Gather' (uuid='ao.studying.nodes.group.grouping.Gather',type='MessageFlow') started successfully. 
+2025-07-15 06:36:19.106326Z: [Thread 16562] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Processing' (uuid='ao.studying.nodes.group.grouping.Processing',type='MessageFlow') started successfully. 
+2025-07-15 06:36:19.106568Z: [Thread 16562] (Msg 1/1) BIP1996I: Listening on HTTP URL '/grouping'. 
+2025-07-15 06:36:19.106698Z: [Thread 16562] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Scatter' (uuid='ao.studying.nodes.group.grouping.Scatter',type='MessageFlow') started successfully. 
+2025-07-15 06:36:19.106998Z: [Thread 16562] (Msg 1/1) BIP1996I: Listening on HTTP URL '/filter'. 
+2025-07-15 06:36:19.107112Z: [Thread 16562] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.FilterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.FilterNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 06:36:19.107402Z: [Thread 16562] (Msg 1/1) BIP1996I: Listening on HTTP URL '/label'. 
+2025-07-15 06:36:19.107514Z: [Thread 16562] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.LabelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.LabelNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 06:36:19.107828Z: [Thread 16562] (Msg 1/1) BIP1996I: Listening on HTTP URL '/route'. 
+2025-07-15 06:36:19.107976Z: [Thread 16562] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.RouteNodeXmlInput' (uuid='ao.studying.nodes.group.routing.RouteNodeXmlInput',type='MessageFlow') started successfully. 
+2025-07-15 06:36:19.108024Z: [Thread 16562] (Msg 1/1) BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
+2025-07-15 06:36:19.108060Z: [Thread 16562] (Msg 1/1) BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
+2025-07-15 06:36:19.108198Z: [Thread 16562] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-07-15 06:39:20.549716Z: [Thread 16714] (Msg 1/3) BIP2628W: Exception condition detected on input node 'ao.studying.nodes.group.grouping.Complete.Group Complete'. 
+2025-07-15 06:39:20.549786Z: [Thread 16714] (Msg 2/3) BIP2230E: Error detected whilst processing a message in node 'ao.studying.nodes.group.grouping.Complete.HTTP Reply'. 
+2025-07-15 06:39:20.549802Z: [Thread 16714] (Msg 3/3) BIP3143E: Message does not contain valid HTTP context information 
+2025-07-15 06:43:55.904912Z: [Thread 16714] (Msg 1/3) BIP2628W: Exception condition detected on input node 'ao.studying.nodes.group.grouping.Complete.Group Complete'. 
+2025-07-15 06:43:55.904984Z: [Thread 16714] (Msg 2/3) BIP2230E: Error detected whilst processing a message in node 'ao.studying.nodes.group.grouping.Complete.HTTP Reply'. 
+2025-07-15 06:43:55.905020Z: [Thread 16714] (Msg 3/3) BIP3143E: Message does not contain valid HTTP context information 
+2025-07-15 06:44:55.428200Z: [Thread 16557] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-07-15 06:44:55.446988Z: [Thread 16557] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 06:44:55.909412Z: [Thread 16557] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Complete' (uuid='ao.studying.nodes.group.grouping.Complete',type='MessageFlow') successfully stopped. 
+2025-07-15 06:44:59.900716Z: [Thread 16557] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Gather' (uuid='ao.studying.nodes.group.grouping.Gather',type='MessageFlow') successfully stopped. 
+2025-07-15 06:44:59.901208Z: [Thread 16557] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Processing' (uuid='ao.studying.nodes.group.grouping.Processing',type='MessageFlow') successfully stopped. 
+2025-07-15 06:44:59.901372Z: [Thread 16557] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Scatter' (uuid='ao.studying.nodes.group.grouping.Scatter',type='MessageFlow') successfully stopped. 
+2025-07-15 06:45:00.141090Z: [Thread 16557] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.FilterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.FilterNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-15 06:45:00.141414Z: [Thread 16557] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.LabelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.LabelNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-15 06:45:00.141911Z: [Thread 16557] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.RouteNodeXmlInput' (uuid='ao.studying.nodes.group.routing.RouteNodeXmlInput',type='MessageFlow') successfully stopped. 
+2025-07-15 06:45:00.142104Z: [Thread 16557] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 06:45:00.292550Z: [Thread 16557] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 06:45:00.380807Z: [Thread 16557] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 06:45:00.381079Z: [Thread 16557] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Complete' (uuid='ao.studying.nodes.group.grouping.Complete',type='MessageFlow') started successfully. 
+2025-07-15 06:45:00.381361Z: [Thread 16557] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Gather' (uuid='ao.studying.nodes.group.grouping.Gather',type='MessageFlow') started successfully. 
+2025-07-15 06:45:00.381713Z: [Thread 16557] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Processing' (uuid='ao.studying.nodes.group.grouping.Processing',type='MessageFlow') started successfully. 
+2025-07-15 06:45:00.382027Z: [Thread 16557] (Msg 1/1) BIP1996I: Listening on HTTP URL '/grouping'. 
+2025-07-15 06:45:00.382244Z: [Thread 16557] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Scatter' (uuid='ao.studying.nodes.group.grouping.Scatter',type='MessageFlow') started successfully. 
+2025-07-15 06:45:00.382675Z: [Thread 16557] (Msg 1/1) BIP1996I: Listening on HTTP URL '/filter'. 
+2025-07-15 06:45:00.382890Z: [Thread 16557] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.FilterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.FilterNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 06:45:00.383280Z: [Thread 16557] (Msg 1/1) BIP1996I: Listening on HTTP URL '/label'. 
+2025-07-15 06:45:00.383418Z: [Thread 16557] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.LabelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.LabelNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 06:45:00.383832Z: [Thread 16557] (Msg 1/1) BIP1996I: Listening on HTTP URL '/route'. 
+2025-07-15 06:45:00.384084Z: [Thread 16557] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.RouteNodeXmlInput' (uuid='ao.studying.nodes.group.routing.RouteNodeXmlInput',type='MessageFlow') started successfully. 
+2025-07-15 06:45:00.384162Z: [Thread 16557] (Msg 1/1) BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
+2025-07-15 06:45:00.384213Z: [Thread 16557] (Msg 1/1) BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
+2025-07-15 06:45:00.384424Z: [Thread 16557] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-07-15 06:50:51.714512Z: [Thread 17518] (Msg 1/3) BIP2628W: Exception condition detected on input node 'ao.studying.nodes.group.grouping.Complete.Group Complete'. 
+2025-07-15 06:50:51.714624Z: [Thread 17518] (Msg 2/3) BIP2230E: Error detected whilst processing a message in node 'ao.studying.nodes.group.grouping.Complete.HTTP Reply'. 
+2025-07-15 06:50:51.714652Z: [Thread 17518] (Msg 3/3) BIP3143E: Message does not contain valid HTTP context information 
+2025-07-15 06:53:12.670758Z: [Thread 17518] (Msg 1/3) BIP2628W: Exception condition detected on input node 'ao.studying.nodes.group.grouping.Complete.Group Complete'. 
+2025-07-15 06:53:12.670854Z: [Thread 17518] (Msg 2/3) BIP2230E: Error detected whilst processing a message in node 'ao.studying.nodes.group.grouping.Complete.HTTP Reply'. 
+2025-07-15 06:53:12.670884Z: [Thread 17518] (Msg 3/3) BIP3143E: Message does not contain valid HTTP context information 
+2025-07-15 06:56:55.297668Z: [Thread 16565] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-07-15 06:56:55.313012Z: [Thread 16565] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 06:56:57.687592Z: [Thread 16565] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Complete' (uuid='ao.studying.nodes.group.grouping.Complete',type='MessageFlow') successfully stopped. 
+2025-07-15 06:56:59.208628Z: [Thread 16565] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Gather' (uuid='ao.studying.nodes.group.grouping.Gather',type='MessageFlow') successfully stopped. 
+2025-07-15 06:56:59.210004Z: [Thread 16565] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Processing' (uuid='ao.studying.nodes.group.grouping.Processing',type='MessageFlow') successfully stopped. 
+2025-07-15 06:57:00.155076Z: [Thread 16565] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Scatter' (uuid='ao.studying.nodes.group.grouping.Scatter',type='MessageFlow') successfully stopped. 
+2025-07-15 06:57:00.156091Z: [Thread 16565] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.FilterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.FilterNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-15 06:57:00.157149Z: [Thread 16565] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.LabelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.LabelNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-15 06:57:00.158128Z: [Thread 16565] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.RouteNodeXmlInput' (uuid='ao.studying.nodes.group.routing.RouteNodeXmlInput',type='MessageFlow') successfully stopped. 
+2025-07-15 06:57:00.158514Z: [Thread 16565] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 06:57:00.295240Z: [Thread 16565] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 06:57:00.366617Z: [Thread 16565] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 06:57:00.366833Z: [Thread 16565] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Complete' (uuid='ao.studying.nodes.group.grouping.Complete',type='MessageFlow') started successfully. 
+2025-07-15 06:57:00.367064Z: [Thread 16565] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Gather' (uuid='ao.studying.nodes.group.grouping.Gather',type='MessageFlow') started successfully. 
+2025-07-15 06:57:00.367296Z: [Thread 16565] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Processing' (uuid='ao.studying.nodes.group.grouping.Processing',type='MessageFlow') started successfully. 
+2025-07-15 06:57:00.367531Z: [Thread 16565] (Msg 1/1) BIP1996I: Listening on HTTP URL '/grouping'. 
+2025-07-15 06:57:00.367636Z: [Thread 16565] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Scatter' (uuid='ao.studying.nodes.group.grouping.Scatter',type='MessageFlow') started successfully. 
+2025-07-15 06:57:00.367892Z: [Thread 16565] (Msg 1/1) BIP1996I: Listening on HTTP URL '/filter'. 
+2025-07-15 06:57:00.367986Z: [Thread 16565] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.FilterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.FilterNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 06:57:00.368251Z: [Thread 16565] (Msg 1/1) BIP1996I: Listening on HTTP URL '/label'. 
+2025-07-15 06:57:00.368345Z: [Thread 16565] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.LabelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.LabelNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 06:57:00.368619Z: [Thread 16565] (Msg 1/1) BIP1996I: Listening on HTTP URL '/route'. 
+2025-07-15 06:57:00.368781Z: [Thread 16565] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.RouteNodeXmlInput' (uuid='ao.studying.nodes.group.routing.RouteNodeXmlInput',type='MessageFlow') started successfully. 
+2025-07-15 06:57:00.368847Z: [Thread 16565] (Msg 1/1) BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
+2025-07-15 06:57:00.368893Z: [Thread 16565] (Msg 1/1) BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
+2025-07-15 06:57:00.369030Z: [Thread 16565] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-07-15 06:58:49.871516Z: [Thread 17830] (Msg 1/3) BIP2628W: Exception condition detected on input node 'ao.studying.nodes.group.grouping.Complete.Group Complete'. 
+2025-07-15 06:58:49.871616Z: [Thread 17830] (Msg 2/3) BIP2230E: Error detected whilst processing a message in node 'ao.studying.nodes.group.grouping.Complete.HTTP Reply'. 
+2025-07-15 06:58:49.871648Z: [Thread 17830] (Msg 3/3) BIP3143E: Message does not contain valid HTTP context information 
+2025-07-15 07:01:35.601360Z: [Thread 16559] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-07-15 07:01:35.618456Z: [Thread 16559] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:01:37.369616Z: [Thread 16559] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Complete' (uuid='ao.studying.nodes.group.grouping.Complete',type='MessageFlow') successfully stopped. 
+2025-07-15 07:01:38.556004Z: [Thread 16559] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Gather' (uuid='ao.studying.nodes.group.grouping.Gather',type='MessageFlow') successfully stopped. 
+2025-07-15 07:01:38.611388Z: [Thread 16559] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Processing' (uuid='ao.studying.nodes.group.grouping.Processing',type='MessageFlow') successfully stopped. 
+2025-07-15 07:01:39.891600Z: [Thread 16559] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Scatter' (uuid='ao.studying.nodes.group.grouping.Scatter',type='MessageFlow') successfully stopped. 
+2025-07-15 07:01:39.892852Z: [Thread 16559] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.FilterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.FilterNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-15 07:01:39.894056Z: [Thread 16559] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.LabelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.LabelNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-15 07:01:39.895332Z: [Thread 16559] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.RouteNodeXmlInput' (uuid='ao.studying.nodes.group.routing.RouteNodeXmlInput',type='MessageFlow') successfully stopped. 
+2025-07-15 07:01:39.895740Z: [Thread 16559] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:01:39.976492Z: [Thread 16559] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:01:40.054772Z: [Thread 16559] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:01:40.055052Z: [Thread 16559] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Complete' (uuid='ao.studying.nodes.group.grouping.Complete',type='MessageFlow') started successfully. 
+2025-07-15 07:01:40.055284Z: [Thread 16559] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Gather' (uuid='ao.studying.nodes.group.grouping.Gather',type='MessageFlow') started successfully. 
+2025-07-15 07:01:40.055512Z: [Thread 16559] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Processing' (uuid='ao.studying.nodes.group.grouping.Processing',type='MessageFlow') started successfully. 
+2025-07-15 07:01:40.055756Z: [Thread 16559] (Msg 1/1) BIP1996I: Listening on HTTP URL '/grouping'. 
+2025-07-15 07:01:40.055868Z: [Thread 16559] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Scatter' (uuid='ao.studying.nodes.group.grouping.Scatter',type='MessageFlow') started successfully. 
+2025-07-15 07:01:40.056156Z: [Thread 16559] (Msg 1/1) BIP1996I: Listening on HTTP URL '/filter'. 
+2025-07-15 07:01:40.056280Z: [Thread 16559] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.FilterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.FilterNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 07:01:40.056684Z: [Thread 16559] (Msg 1/1) BIP1996I: Listening on HTTP URL '/label'. 
+2025-07-15 07:01:40.056860Z: [Thread 16559] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.LabelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.LabelNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 07:01:40.057360Z: [Thread 16559] (Msg 1/1) BIP1996I: Listening on HTTP URL '/route'. 
+2025-07-15 07:01:40.057668Z: [Thread 16559] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.RouteNodeXmlInput' (uuid='ao.studying.nodes.group.routing.RouteNodeXmlInput',type='MessageFlow') started successfully. 
+2025-07-15 07:01:40.057772Z: [Thread 16559] (Msg 1/1) BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
+2025-07-15 07:01:40.057848Z: [Thread 16559] (Msg 1/1) BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
+2025-07-15 07:01:40.058036Z: [Thread 16559] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-07-15 07:05:05.750956Z: [Thread 16563] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-07-15 07:05:05.771466Z: [Thread 16563] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:05:06.069395Z: [Thread 16563] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Complete' (uuid='ao.studying.nodes.group.grouping.Complete',type='MessageFlow') successfully stopped. 
+2025-07-15 07:05:09.073983Z: [Thread 16563] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Gather' (uuid='ao.studying.nodes.group.grouping.Gather',type='MessageFlow') successfully stopped. 
+2025-07-15 07:05:09.074784Z: [Thread 16563] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Processing' (uuid='ao.studying.nodes.group.grouping.Processing',type='MessageFlow') successfully stopped. 
+2025-07-15 07:05:09.075054Z: [Thread 16563] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Scatter' (uuid='ao.studying.nodes.group.grouping.Scatter',type='MessageFlow') successfully stopped. 
+2025-07-15 07:05:09.075788Z: [Thread 16563] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.FilterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.FilterNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-15 07:05:09.076626Z: [Thread 16563] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.LabelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.LabelNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-15 07:05:09.077385Z: [Thread 16563] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.RouteNodeXmlInput' (uuid='ao.studying.nodes.group.routing.RouteNodeXmlInput',type='MessageFlow') successfully stopped. 
+2025-07-15 07:05:09.077679Z: [Thread 16563] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:05:09.272419Z: [Thread 16563] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:05:09.346623Z: [Thread 16563] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:05:09.346927Z: [Thread 16563] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Complete' (uuid='ao.studying.nodes.group.grouping.Complete',type='MessageFlow') started successfully. 
+2025-07-15 07:05:09.347217Z: [Thread 16563] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Gather' (uuid='ao.studying.nodes.group.grouping.Gather',type='MessageFlow') started successfully. 
+2025-07-15 07:05:09.347488Z: [Thread 16563] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Processing' (uuid='ao.studying.nodes.group.grouping.Processing',type='MessageFlow') started successfully. 
+2025-07-15 07:05:09.347801Z: [Thread 16563] (Msg 1/1) BIP1996I: Listening on HTTP URL '/grouping'. 
+2025-07-15 07:05:09.347939Z: [Thread 16563] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Scatter' (uuid='ao.studying.nodes.group.grouping.Scatter',type='MessageFlow') started successfully. 
+2025-07-15 07:05:09.348234Z: [Thread 16563] (Msg 1/1) BIP1996I: Listening on HTTP URL '/filter'. 
+2025-07-15 07:05:09.348384Z: [Thread 16563] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.FilterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.FilterNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 07:05:09.348731Z: [Thread 16563] (Msg 1/1) BIP1996I: Listening on HTTP URL '/label'. 
+2025-07-15 07:05:09.348831Z: [Thread 16563] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.LabelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.LabelNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 07:05:09.349100Z: [Thread 16563] (Msg 1/1) BIP1996I: Listening on HTTP URL '/route'. 
+2025-07-15 07:05:09.349207Z: [Thread 16563] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.RouteNodeXmlInput' (uuid='ao.studying.nodes.group.routing.RouteNodeXmlInput',type='MessageFlow') started successfully. 
+2025-07-15 07:05:09.349254Z: [Thread 16563] (Msg 1/1) BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
+2025-07-15 07:05:09.349290Z: [Thread 16563] (Msg 1/1) BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
+2025-07-15 07:05:09.349412Z: [Thread 16563] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-07-15 07:06:19.932040Z: [Thread 18166] (Msg 1/3) BIP2628W: Exception condition detected on input node 'ao.studying.nodes.group.grouping.Complete.Group Complete'. 
+2025-07-15 07:06:19.932138Z: [Thread 18166] (Msg 2/3) BIP2230E: Error detected whilst processing a message in node 'ao.studying.nodes.group.grouping.Complete.HTTP Reply'. 
+2025-07-15 07:06:19.932168Z: [Thread 18166] (Msg 3/3) BIP3143E: Message does not contain valid HTTP context information 
+2025-07-15 07:06:49.550816Z: [Thread 18166] (Msg 1/3) BIP2628W: Exception condition detected on input node 'ao.studying.nodes.group.grouping.Complete.Group Complete'. 
+2025-07-15 07:06:49.550880Z: [Thread 18166] (Msg 2/3) BIP2230E: Error detected whilst processing a message in node 'ao.studying.nodes.group.grouping.Complete.HTTP Reply'. 
+2025-07-15 07:06:49.550900Z: [Thread 18166] (Msg 3/3) BIP3143E: Message does not contain valid HTTP context information 
+2025-07-15 07:09:22.730998Z: [Thread 16564] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-07-15 07:09:22.750902Z: [Thread 16564] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:09:27.179894Z: [Thread 16564] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Complete' (uuid='ao.studying.nodes.group.grouping.Complete',type='MessageFlow') successfully stopped. 
+2025-07-15 07:09:27.181104Z: [Thread 16564] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Gather' (uuid='ao.studying.nodes.group.grouping.Gather',type='MessageFlow') successfully stopped. 
+2025-07-15 07:09:27.182050Z: [Thread 16564] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Processing' (uuid='ao.studying.nodes.group.grouping.Processing',type='MessageFlow') successfully stopped. 
+2025-07-15 07:09:27.182422Z: [Thread 16564] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Scatter' (uuid='ao.studying.nodes.group.grouping.Scatter',type='MessageFlow') successfully stopped. 
+2025-07-15 07:09:27.183200Z: [Thread 16564] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.FilterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.FilterNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-15 07:09:27.184028Z: [Thread 16564] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.LabelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.LabelNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-15 07:09:27.184922Z: [Thread 16564] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.RouteNodeXmlInput' (uuid='ao.studying.nodes.group.routing.RouteNodeXmlInput',type='MessageFlow') successfully stopped. 
+2025-07-15 07:09:27.185244Z: [Thread 16564] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:09:27.311682Z: [Thread 16564] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:09:27.380492Z: [Thread 16564] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:09:27.380738Z: [Thread 16564] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Complete' (uuid='ao.studying.nodes.group.grouping.Complete',type='MessageFlow') started successfully. 
+2025-07-15 07:09:27.380970Z: [Thread 16564] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Gather' (uuid='ao.studying.nodes.group.grouping.Gather',type='MessageFlow') started successfully. 
+2025-07-15 07:09:27.381222Z: [Thread 16564] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Processing' (uuid='ao.studying.nodes.group.grouping.Processing',type='MessageFlow') started successfully. 
+2025-07-15 07:09:27.381418Z: [Thread 16564] (Msg 1/1) BIP1996I: Listening on HTTP URL '/grouping'. 
+2025-07-15 07:09:27.381526Z: [Thread 16564] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Scatter' (uuid='ao.studying.nodes.group.grouping.Scatter',type='MessageFlow') started successfully. 
+2025-07-15 07:09:27.381914Z: [Thread 16564] (Msg 1/1) BIP1996I: Listening on HTTP URL '/filter'. 
+2025-07-15 07:09:27.382054Z: [Thread 16564] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.FilterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.FilterNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 07:09:27.382406Z: [Thread 16564] (Msg 1/1) BIP1996I: Listening on HTTP URL '/label'. 
+2025-07-15 07:09:27.382512Z: [Thread 16564] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.LabelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.LabelNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 07:09:27.382884Z: [Thread 16564] (Msg 1/1) BIP1996I: Listening on HTTP URL '/route'. 
+2025-07-15 07:09:27.383020Z: [Thread 16564] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.RouteNodeXmlInput' (uuid='ao.studying.nodes.group.routing.RouteNodeXmlInput',type='MessageFlow') started successfully. 
+2025-07-15 07:09:27.383092Z: [Thread 16564] (Msg 1/1) BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
+2025-07-15 07:09:27.383152Z: [Thread 16564] (Msg 1/1) BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
+2025-07-15 07:09:27.383338Z: [Thread 16564] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-07-15 07:17:03.212930Z: [Thread 16564] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-07-15 07:17:03.226258Z: [Thread 16564] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:17:03.421845Z: [Thread 16564] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Complete' (uuid='ao.studying.nodes.group.grouping.Complete',type='MessageFlow') successfully stopped. 
+2025-07-15 07:17:06.420541Z: [Thread 16564] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Gather' (uuid='ao.studying.nodes.group.grouping.Gather',type='MessageFlow') successfully stopped. 
+2025-07-15 07:17:06.421339Z: [Thread 16564] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Processing' (uuid='ao.studying.nodes.group.grouping.Processing',type='MessageFlow') successfully stopped. 
+2025-07-15 07:17:06.421698Z: [Thread 16564] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Scatter' (uuid='ao.studying.nodes.group.grouping.Scatter',type='MessageFlow') successfully stopped. 
+2025-07-15 07:17:06.422331Z: [Thread 16564] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.FilterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.FilterNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-15 07:17:06.422984Z: [Thread 16564] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.LabelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.LabelNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-15 07:17:06.423839Z: [Thread 16564] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.RouteNodeXmlInput' (uuid='ao.studying.nodes.group.routing.RouteNodeXmlInput',type='MessageFlow') successfully stopped. 
+2025-07-15 07:17:06.424023Z: [Thread 16564] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:17:06.594603Z: [Thread 16564] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:17:06.662672Z: [Thread 16564] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:17:06.662908Z: [Thread 16564] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Complete' (uuid='ao.studying.nodes.group.grouping.Complete',type='MessageFlow') started successfully. 
+2025-07-15 07:17:06.663147Z: [Thread 16564] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Gather' (uuid='ao.studying.nodes.group.grouping.Gather',type='MessageFlow') started successfully. 
+2025-07-15 07:17:06.663387Z: [Thread 16564] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Processing' (uuid='ao.studying.nodes.group.grouping.Processing',type='MessageFlow') started successfully. 
+2025-07-15 07:17:06.663610Z: [Thread 16564] (Msg 1/1) BIP1996I: Listening on HTTP URL '/grouping'. 
+2025-07-15 07:17:06.663706Z: [Thread 16564] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Scatter' (uuid='ao.studying.nodes.group.grouping.Scatter',type='MessageFlow') started successfully. 
+2025-07-15 07:17:06.663957Z: [Thread 16564] (Msg 1/1) BIP1996I: Listening on HTTP URL '/filter'. 
+2025-07-15 07:17:06.664055Z: [Thread 16564] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.FilterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.FilterNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 07:17:06.664410Z: [Thread 16564] (Msg 1/1) BIP1996I: Listening on HTTP URL '/label'. 
+2025-07-15 07:17:06.664514Z: [Thread 16564] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.LabelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.LabelNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 07:17:06.664843Z: [Thread 16564] (Msg 1/1) BIP1996I: Listening on HTTP URL '/route'. 
+2025-07-15 07:17:06.664974Z: [Thread 16564] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.RouteNodeXmlInput' (uuid='ao.studying.nodes.group.routing.RouteNodeXmlInput',type='MessageFlow') started successfully. 
+2025-07-15 07:17:06.665043Z: [Thread 16564] (Msg 1/1) BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
+2025-07-15 07:17:06.665103Z: [Thread 16564] (Msg 1/1) BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
+2025-07-15 07:17:06.665299Z: [Thread 16564] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-07-15 07:17:20.679338Z: [Thread 18393] (Msg 1/3) BIP2628W: Exception condition detected on input node 'ao.studying.nodes.group.grouping.Complete.Group Complete'. 
+2025-07-15 07:17:20.679398Z: [Thread 18393] (Msg 2/3) BIP2230E: Error detected whilst processing a message in node 'ao.studying.nodes.group.grouping.Complete.HTTP Reply'. 
+2025-07-15 07:17:20.679414Z: [Thread 18393] (Msg 3/3) BIP3143E: Message does not contain valid HTTP context information 
+2025-07-15 07:18:07.445189Z: [Thread 18393] (Msg 1/3) BIP2628W: Exception condition detected on input node 'ao.studying.nodes.group.grouping.Complete.Group Complete'. 
+2025-07-15 07:18:07.445289Z: [Thread 18393] (Msg 2/3) BIP2230E: Error detected whilst processing a message in node 'ao.studying.nodes.group.grouping.Complete.HTTP Reply'. 
+2025-07-15 07:18:07.445320Z: [Thread 18393] (Msg 3/3) BIP3143E: Message does not contain valid HTTP context information 
+2025-07-15 07:27:05.949847Z: [Thread 16557] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-07-15 07:27:05.971083Z: [Thread 16557] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:27:07.487460Z: [Thread 16557] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Complete' (uuid='ao.studying.nodes.group.grouping.Complete',type='MessageFlow') successfully stopped. 
+2025-07-15 07:27:09.152144Z: [Thread 16557] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Gather' (uuid='ao.studying.nodes.group.grouping.Gather',type='MessageFlow') successfully stopped. 
+2025-07-15 07:27:09.153091Z: [Thread 16557] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Processing' (uuid='ao.studying.nodes.group.grouping.Processing',type='MessageFlow') successfully stopped. 
+2025-07-15 07:27:09.153440Z: [Thread 16557] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Scatter' (uuid='ao.studying.nodes.group.grouping.Scatter',type='MessageFlow') successfully stopped. 
+2025-07-15 07:27:09.154225Z: [Thread 16557] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.FilterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.FilterNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-15 07:27:09.154912Z: [Thread 16557] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.LabelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.LabelNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-15 07:27:09.155523Z: [Thread 16557] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.RouteNodeXmlInput' (uuid='ao.studying.nodes.group.routing.RouteNodeXmlInput',type='MessageFlow') successfully stopped. 
+2025-07-15 07:27:09.155708Z: [Thread 16557] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:27:09.206960Z: [Thread 16557] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:27:09.281638Z: [Thread 16557] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:27:09.281870Z: [Thread 16557] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Complete' (uuid='ao.studying.nodes.group.grouping.Complete',type='MessageFlow') started successfully. 
+2025-07-15 07:27:09.282087Z: [Thread 16557] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Gather' (uuid='ao.studying.nodes.group.grouping.Gather',type='MessageFlow') started successfully. 
+2025-07-15 07:27:09.282326Z: [Thread 16557] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Processing' (uuid='ao.studying.nodes.group.grouping.Processing',type='MessageFlow') started successfully. 
+2025-07-15 07:27:09.282594Z: [Thread 16557] (Msg 1/1) BIP1996I: Listening on HTTP URL '/grouping'. 
+2025-07-15 07:27:09.282730Z: [Thread 16557] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Scatter' (uuid='ao.studying.nodes.group.grouping.Scatter',type='MessageFlow') started successfully. 
+2025-07-15 07:27:09.283002Z: [Thread 16557] (Msg 1/1) BIP1996I: Listening on HTTP URL '/filter'. 
+2025-07-15 07:27:09.283134Z: [Thread 16557] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.FilterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.FilterNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 07:27:09.283495Z: [Thread 16557] (Msg 1/1) BIP1996I: Listening on HTTP URL '/label'. 
+2025-07-15 07:27:09.283627Z: [Thread 16557] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.LabelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.LabelNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 07:27:09.283979Z: [Thread 16557] (Msg 1/1) BIP1996I: Listening on HTTP URL '/route'. 
+2025-07-15 07:27:09.284142Z: [Thread 16557] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.RouteNodeXmlInput' (uuid='ao.studying.nodes.group.routing.RouteNodeXmlInput',type='MessageFlow') started successfully. 
+2025-07-15 07:27:09.284207Z: [Thread 16557] (Msg 1/1) BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
+2025-07-15 07:27:09.284252Z: [Thread 16557] (Msg 1/1) BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
+2025-07-15 07:27:09.284413Z: [Thread 16557] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-07-15 07:30:51.072004Z: [Thread 18595] (Msg 1/3) BIP2628W: Exception condition detected on input node 'ao.studying.nodes.group.grouping.Complete.Group Complete'. 
+2025-07-15 07:30:51.072068Z: [Thread 18595] (Msg 2/3) BIP2230E: Error detected whilst processing a message in node 'ao.studying.nodes.group.grouping.Complete.HTTP Reply'. 
+2025-07-15 07:30:51.072084Z: [Thread 18595] (Msg 3/3) BIP3143E: Message does not contain valid HTTP context information 
+2025-07-15 07:36:49.321400Z: [Thread 18595] (Msg 1/3) BIP2628W: Exception condition detected on input node 'ao.studying.nodes.group.grouping.Complete.Group Complete'. 
+2025-07-15 07:36:49.321648Z: [Thread 18595] (Msg 2/3) BIP2230E: Error detected whilst processing a message in node 'ao.studying.nodes.group.grouping.Complete.HTTP Reply'. 
+2025-07-15 07:36:49.321736Z: [Thread 18595] (Msg 3/3) BIP3143E: Message does not contain valid HTTP context information 
+2025-07-15 07:39:32.488118Z: [Thread 18595] (Msg 1/3) BIP2628W: Exception condition detected on input node 'ao.studying.nodes.group.grouping.Complete.Group Complete'. 
+2025-07-15 07:39:32.488282Z: [Thread 18595] (Msg 2/3) BIP2230E: Error detected whilst processing a message in node 'ao.studying.nodes.group.grouping.Complete.HTTP Reply'. 
+2025-07-15 07:39:32.488354Z: [Thread 18595] (Msg 3/3) BIP3143E: Message does not contain valid HTTP context information 
+2025-07-15 07:41:26.203304Z: [Thread 16566] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-07-15 07:41:26.236270Z: [Thread 16566] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:41:27.498086Z: [Thread 16566] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Complete' (uuid='ao.studying.nodes.group.grouping.Complete',type='MessageFlow') successfully stopped. 
+2025-07-15 07:41:30.954912Z: [Thread 16566] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Gather' (uuid='ao.studying.nodes.group.grouping.Gather',type='MessageFlow') successfully stopped. 
+2025-07-15 07:41:30.956634Z: [Thread 16566] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Processing' (uuid='ao.studying.nodes.group.grouping.Processing',type='MessageFlow') successfully stopped. 
+2025-07-15 07:41:30.957114Z: [Thread 16566] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Scatter' (uuid='ao.studying.nodes.group.grouping.Scatter',type='MessageFlow') successfully stopped. 
+2025-07-15 07:41:30.957914Z: [Thread 16566] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.FilterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.FilterNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-15 07:41:30.958734Z: [Thread 16566] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.LabelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.LabelNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-15 07:41:30.959550Z: [Thread 16566] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.RouteNodeXmlInput' (uuid='ao.studying.nodes.group.routing.RouteNodeXmlInput',type='MessageFlow') successfully stopped. 
+2025-07-15 07:41:30.959914Z: [Thread 16566] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:41:31.154546Z: [Thread 16566] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:41:31.278944Z: [Thread 16566] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:41:31.279566Z: [Thread 16566] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Complete' (uuid='ao.studying.nodes.group.grouping.Complete',type='MessageFlow') started successfully. 
+2025-07-15 07:41:31.280008Z: [Thread 16566] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Gather' (uuid='ao.studying.nodes.group.grouping.Gather',type='MessageFlow') started successfully. 
+2025-07-15 07:41:31.280534Z: [Thread 16566] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Processing' (uuid='ao.studying.nodes.group.grouping.Processing',type='MessageFlow') started successfully. 
+2025-07-15 07:41:31.280944Z: [Thread 16566] (Msg 1/1) BIP1996I: Listening on HTTP URL '/grouping'. 
+2025-07-15 07:41:31.281116Z: [Thread 16566] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Scatter' (uuid='ao.studying.nodes.group.grouping.Scatter',type='MessageFlow') started successfully. 
+2025-07-15 07:41:31.281608Z: [Thread 16566] (Msg 1/1) BIP1996I: Listening on HTTP URL '/filter'. 
+2025-07-15 07:41:31.281794Z: [Thread 16566] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.FilterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.FilterNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 07:41:31.282324Z: [Thread 16566] (Msg 1/1) BIP1996I: Listening on HTTP URL '/label'. 
+2025-07-15 07:41:31.282508Z: [Thread 16566] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.LabelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.LabelNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 07:41:31.283004Z: [Thread 16566] (Msg 1/1) BIP1996I: Listening on HTTP URL '/route'. 
+2025-07-15 07:41:31.283210Z: [Thread 16566] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.RouteNodeXmlInput' (uuid='ao.studying.nodes.group.routing.RouteNodeXmlInput',type='MessageFlow') started successfully. 
+2025-07-15 07:41:31.283302Z: [Thread 16566] (Msg 1/1) BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
+2025-07-15 07:41:31.283380Z: [Thread 16566] (Msg 1/1) BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
+2025-07-15 07:41:31.283622Z: [Thread 16566] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2025-07-15 07:41:46.472808Z: [Thread 18985] (Msg 1/3) BIP2628W: Exception condition detected on input node 'ao.studying.nodes.group.grouping.Complete.Group Complete'. 
+2025-07-15 07:41:46.472996Z: [Thread 18985] (Msg 2/3) BIP2230E: Error detected whilst processing a message in node 'ao.studying.nodes.group.grouping.Complete.HTTP Reply'. 
+2025-07-15 07:41:46.473044Z: [Thread 18985] (Msg 3/3) BIP3143E: Message does not contain valid HTTP context information 
+2025-07-15 07:42:46.360796Z: [Thread 16558] (Msg 1/1) BIP2152I: Configuration message received. 
+2025-07-15 07:42:46.397124Z: [Thread 16558] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:42:46.478220Z: [Thread 16558] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Complete' (uuid='ao.studying.nodes.group.grouping.Complete',type='MessageFlow') successfully stopped. 
+2025-07-15 07:42:49.357804Z: [Thread 16558] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Gather' (uuid='ao.studying.nodes.group.grouping.Gather',type='MessageFlow') successfully stopped. 
+2025-07-15 07:42:49.358776Z: [Thread 16558] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Processing' (uuid='ao.studying.nodes.group.grouping.Processing',type='MessageFlow') successfully stopped. 
+2025-07-15 07:42:49.359148Z: [Thread 16558] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Scatter' (uuid='ao.studying.nodes.group.grouping.Scatter',type='MessageFlow') successfully stopped. 
+2025-07-15 07:42:49.359932Z: [Thread 16558] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.FilterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.FilterNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-15 07:42:49.361480Z: [Thread 16558] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.LabelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.LabelNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-15 07:42:49.362528Z: [Thread 16558] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.RouteNodeXmlInput' (uuid='ao.studying.nodes.group.routing.RouteNodeXmlInput',type='MessageFlow') successfully stopped. 
+2025-07-15 07:42:49.362800Z: [Thread 16558] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:42:49.535228Z: [Thread 16558] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:42:49.730776Z: [Thread 16558] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-15 07:42:49.731616Z: [Thread 16558] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Complete' (uuid='ao.studying.nodes.group.grouping.Complete',type='MessageFlow') started successfully. 
+2025-07-15 07:42:49.732344Z: [Thread 16558] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Gather' (uuid='ao.studying.nodes.group.grouping.Gather',type='MessageFlow') started successfully. 
+2025-07-15 07:42:49.732992Z: [Thread 16558] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Processing' (uuid='ao.studying.nodes.group.grouping.Processing',type='MessageFlow') started successfully. 
+2025-07-15 07:42:49.733612Z: [Thread 16558] (Msg 1/1) BIP1996I: Listening on HTTP URL '/grouping'. 
+2025-07-15 07:42:49.733916Z: [Thread 16558] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Scatter' (uuid='ao.studying.nodes.group.grouping.Scatter',type='MessageFlow') started successfully. 
+2025-07-15 07:42:49.734704Z: [Thread 16558] (Msg 1/1) BIP1996I: Listening on HTTP URL '/filter'. 
+2025-07-15 07:42:49.735076Z: [Thread 16558] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.FilterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.FilterNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 07:42:49.736220Z: [Thread 16558] (Msg 1/1) BIP1996I: Listening on HTTP URL '/label'. 
+2025-07-15 07:42:49.736608Z: [Thread 16558] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.LabelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.LabelNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-15 07:42:49.737712Z: [Thread 16558] (Msg 1/1) BIP1996I: Listening on HTTP URL '/route'. 
+2025-07-15 07:42:49.738240Z: [Thread 16558] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.RouteNodeXmlInput' (uuid='ao.studying.nodes.group.routing.RouteNodeXmlInput',type='MessageFlow') started successfully. 
+2025-07-15 07:42:49.738480Z: [Thread 16558] (Msg 1/1) BIP9332I: Application 'studyingDifferentNodes' has been changed successfully. 
+2025-07-15 07:42:49.738640Z: [Thread 16558] (Msg 1/1) BIP9326I: The source 'studyingDifferentNodesproject.generated.bar' has been successfully deployed. 
+2025-07-15 07:42:49.739008Z: [Thread 16558] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
