@@ -1,0 +1,11 @@
+BROKER SCHEMA ao.studying.nodes.group.error.handling
+
+
+CREATE COMPUTE MODULE TryCatch_error
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		
+		RETURN TRUE;
+	END;
+END MODULE;

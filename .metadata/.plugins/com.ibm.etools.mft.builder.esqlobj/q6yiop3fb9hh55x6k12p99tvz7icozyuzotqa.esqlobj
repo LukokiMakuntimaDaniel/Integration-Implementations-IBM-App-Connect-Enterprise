@@ -1,0 +1,22 @@
+CREATE COMPUTE MODULE Processing_makeSum
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		DECLARE inputRef REFERENCE TO InputLocalEnvironment.Variables.calculate;
+		DECLARE cont INTEGER 1;
+		DECLARE total INTEGER CARDINALITY(inputRef.numbers.Item[]);
+		DECLARE add INTEGER 0;
+		
+		WHILE cont<=total DO
+			SET add =add + inputRef.numbers.Item[cont];
+			SET cont = cont+1;
+		END WHILE;
+		
+		CREATE LASTCHILD OF OutputRoot.JSON.Data NAME 'response';
+		DECLARE responseRef REFERENCE TO OutputRoot.JSON.Data.response;
+		SET responseRef.operation = inputRef.operation;
+		SET responseRef.result = add;
+		RETURN TRUE;
+
+	END;
+END MODULE;

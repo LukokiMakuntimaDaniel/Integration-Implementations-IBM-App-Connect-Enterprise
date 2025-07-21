@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
   <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1753118770926" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/error/handling/TryCatch.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/error/handling/TryCatch.msgflow.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/error/handling/TryCatch.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="ao/studying/nodes/group/error/handling/TryCatch.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1753036365811" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/error/handling/TryCatch_error.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/error/handling/TryCatch_error.esql.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/error/handling/TryCatch_error.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="ao/studying/nodes/group/error/handling/TryCatch_error.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1753118980358" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/error/handling/TryCatch_solving.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/error/handling/TryCatch_solving.esql.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/error/handling/TryCatch_solving.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="ao/studying/nodes/group/error/handling/TryCatch_solving.esql"/>
+    </deployable>
     <deployable deployed="true" barResourceTimeStamp="1752564349186" workspaceResource="/studyingDifferentNodes/ao/studying/nodes/group/grouping/Complete.msgflow">
       <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file studyingDifferentNodes/ao/studying/nodes/group/grouping/Complete.msgflow.&#xA;Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Complete.msgflow to BAR file.&#xA;" severity="0"/>
       <barEntry name="ao/studying/nodes/group/grouping/Complete.msgflow"/>

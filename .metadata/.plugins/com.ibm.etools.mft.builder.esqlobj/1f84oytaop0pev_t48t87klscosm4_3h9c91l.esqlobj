@@ -1,0 +1,13 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		
+		DECLARE inputRef REFERENCE TO InputRoot.JSON.Data.calculate;
+		CREATE LASTCHILD OF OutputRoot.JSON.Data NAME 'response';
+		DECLARE responseRef REFERENCE TO OutputRoot.JSON.Data.response;
+		SET responseRef.operation = inputRef.operation;
+		SET responseRef.result = 'unknown operation';
+		RETURN TRUE;
+
+	END;
+
+

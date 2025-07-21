@@ -1,0 +1,8 @@
+CREATE COMPUTE MODULE Complete_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		SET OutputRoot.JSON.Data = InputRoot;
+		SET OutputLocalEnvironment.Destination = InputRoot.ComIbmGroupCompleteNode.Group.Context;
+		RETURN TRUE;
+	END;
+END MODULE;

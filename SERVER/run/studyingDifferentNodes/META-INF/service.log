@@ -1,7 +1,7 @@
 
 ==============================================
 
-!Tue Jul 15 08:42:46 WAT 2025
+!Mon Jul 21 18:29:56 WAT 2025
 
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/routing/RouteNodeXmlInput.msgflow to BAR file.
 
@@ -16,6 +16,12 @@ Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Gather.msgflow to BAR file.
 
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Complete.msgflow to BAR file.
+
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/error/handling/TryCatch.msgflow to BAR file.
+
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/error/handling/TryCatch_error.esql to BAR file.
+
+Successfully added file studyingDifferentNodes/ao/studying/nodes/group/error/handling/TryCatch_solving.esql to BAR file.
 
 Successfully added file studyingDifferentNodes/ao/studying/nodes/group/grouping/Complete_Compute.esql to BAR file.
 

@@ -1,35 +1,44 @@
-2025-07-14 19:24:18.056604Z: [Thread 7310] (Msg 1/1) BIP1990I: Integration server 'SERVER' starting initialization; version '12.0.12.13' (64-bit) 
-2025-07-14 19:24:18.080652Z: [Thread 7310] (Msg 1/1) BIP9905I: Initializing resource managers. 
-2025-07-14 19:24:18.726104Z: [Thread 7310] (Msg 1/1) BIP10112I: The resources from 'mqsicdc.par' have not been loaded because the runtime component 'ChangeDataCapture' has not been enabled. Reason: 'Restricted by Java Runtime selected'. Further detail: '/home/lukoki-makuntima-daniel/Documentos/ace-12.0.12.13/common/jdk/jre/embedded.java.yaml'. 
-2025-07-14 19:24:19.066996Z: [Thread 7310] (Msg 1/1) BIP10112I: The resources from 'imbopentelemetry.lil' have not been loaded because the runtime component 'OpenTelemetry' has not been enabled. Reason: 'Integration Server Configuration'. Further detail: 'server.conf.yaml'. 
-2025-07-14 19:24:21.907194Z: [Thread 7310] (Msg 1/1) BIP9906I: Reading deployed resources. 
-2025-07-14 19:24:21.919148Z: [Thread 7310] (Msg 1/1) BIP9907I: Initializing deployed resources. 
-2025-07-14 19:24:21.921152Z: [Thread 7310] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-14 19:24:21.970638Z: [Thread 7310] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'fistProject' of type 'RestAPI'. 
-2025-07-14 19:24:22.461188Z: [Thread 7310] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-14 19:24:22.483616Z: [Thread 7310] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
-2025-07-14 19:24:22.483988Z: [Thread 7310] (Msg 1/1) BIP1996I: Listening on HTTP URL '/filter'. 
-2025-07-14 19:24:22.484810Z: [Thread 7310] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.filterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.filterNodeJsonInput',type='MessageFlow') started successfully. 
-2025-07-14 19:24:22.485576Z: [Thread 7310] (Msg 1/1) BIP1996I: Listening on HTTP URL '/label'. 
-2025-07-14 19:24:22.485814Z: [Thread 7310] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.labelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.labelNodeJsonInput',type='MessageFlow') started successfully. 
-2025-07-14 19:24:22.486508Z: [Thread 7310] (Msg 1/1) BIP1996I: Listening on HTTP URL '/route'. 
-2025-07-14 19:24:22.486782Z: [Thread 7310] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.routeNodeXmlInput' (uuid='ao.studying.nodes.group.routing.routeNodeXmlInput',type='MessageFlow') started successfully. 
-2025-07-14 19:24:22.486898Z: [Thread 7310] (Msg 1/1) BIP9332I: Application 'studyingDifferentNodes' has been reloaded successfully. 
-2025-07-14 19:24:22.487014Z: [Thread 7310] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'fistProject' of type 'RestAPI'. 
-2025-07-14 19:24:22.487440Z: [Thread 7310] (Msg 1/1) BIP1996I: Listening on HTTP URL '/fistproject/v1*'. 
-2025-07-14 19:24:22.487752Z: [Thread 7310] (Msg 1/1) BIP2269I: Deployed resource 'gen.fistProject' (uuid='gen.fistProject',type='MessageFlow') started successfully. 
-2025-07-14 19:24:22.487852Z: [Thread 7310] (Msg 1/1) BIP9332I: RestAPI 'fistProject' has been reloaded successfully. 
-2025-07-14 19:24:22.893936Z: [Thread 7402] (Msg 1/1) BIP2866I: IBM App Connect Enterprise administration security is inactive. 
-2025-07-14 19:24:22.914620Z: [Thread 7402] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7600' for 'RestAdmin http' connections. 
-2025-07-14 19:24:22.918370Z: [Thread 7310] (Msg 1/1) BIP1991I: Integration server has finished initialization. 
-2025-07-14 19:50:25.330880Z: [Thread 7310] (Msg 1/1) BIP1989I: Integration server is terminating due to a shutdown event. 
-2025-07-14 19:50:25.333702Z: [Thread 7310] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-14 19:50:25.334178Z: [Thread 7310] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'fistProject' of type 'RestAPI'. 
-2025-07-14 19:50:29.525974Z: [Thread 7310] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.filterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.filterNodeJsonInput',type='MessageFlow') successfully stopped. 
-2025-07-14 19:50:29.526140Z: [Thread 7310] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.labelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.labelNodeJsonInput',type='MessageFlow') successfully stopped. 
-2025-07-14 19:50:29.526342Z: [Thread 7310] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.routeNodeXmlInput' (uuid='ao.studying.nodes.group.routing.routeNodeXmlInput',type='MessageFlow') successfully stopped. 
-2025-07-14 19:50:29.526478Z: [Thread 7310] (Msg 1/1) BIP2271I: Deployed resource 'gen.fistProject' (uuid='gen.fistProject',type='MessageFlow') successfully stopped. 
-2025-07-14 19:50:29.638378Z: [Thread 7310] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'fistProject' of type 'RestAPI'. 
-2025-07-14 19:50:29.692920Z: [Thread 7310] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
-2025-07-14 19:50:29.741290Z: [Thread 7310] (Msg 1/1) BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
-2025-07-14 19:50:31.637344Z: [Thread 7310] (Msg 1/1) BIP1992I: Integration server 'SERVER' stopped. 
+2025-07-20 16:23:18.992570Z: [Thread 4697] (Msg 1/1) BIP1990I: Integration server 'SERVER' starting initialization; version '12.0.12.13' (64-bit) 
+2025-07-20 16:23:19.021928Z: [Thread 4697] (Msg 1/1) BIP9905I: Initializing resource managers. 
+2025-07-20 16:23:19.802402Z: [Thread 4697] (Msg 1/1) BIP10112I: The resources from 'mqsicdc.par' have not been loaded because the runtime component 'ChangeDataCapture' has not been enabled. Reason: 'Restricted by Java Runtime selected'. Further detail: '/home/lukoki-makuntima-daniel/Documentos/ace-12.0.12.13/common/jdk/jre/embedded.java.yaml'. 
+2025-07-20 16:23:20.258484Z: [Thread 4697] (Msg 1/1) BIP10112I: The resources from 'imbopentelemetry.lil' have not been loaded because the runtime component 'OpenTelemetry' has not been enabled. Reason: 'Integration Server Configuration'. Further detail: 'server.conf.yaml'. 
+2025-07-20 16:23:23.844962Z: [Thread 4697] (Msg 1/1) BIP9906I: Reading deployed resources. 
+2025-07-20 16:23:23.866364Z: [Thread 4697] (Msg 1/1) BIP9907I: Initializing deployed resources. 
+2025-07-20 16:23:23.869084Z: [Thread 4697] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-20 16:23:23.937012Z: [Thread 4697] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'fistProject' of type 'RestAPI'. 
+2025-07-20 16:23:24.500132Z: [Thread 4697] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-20 16:23:24.500774Z: [Thread 4697] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Complete' (uuid='ao.studying.nodes.group.grouping.Complete',type='MessageFlow') started successfully. 
+2025-07-20 16:23:24.501148Z: [Thread 4697] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Gather' (uuid='ao.studying.nodes.group.grouping.Gather',type='MessageFlow') started successfully. 
+2025-07-20 16:23:24.501508Z: [Thread 4697] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Processing' (uuid='ao.studying.nodes.group.grouping.Processing',type='MessageFlow') started successfully. 
+2025-07-20 16:23:24.524256Z: [Thread 4697] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2025-07-20 16:23:24.524326Z: [Thread 4697] (Msg 1/1) BIP1996I: Listening on HTTP URL '/grouping'. 
+2025-07-20 16:23:24.524540Z: [Thread 4697] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.grouping.Scatter' (uuid='ao.studying.nodes.group.grouping.Scatter',type='MessageFlow') started successfully. 
+2025-07-20 16:23:24.524982Z: [Thread 4697] (Msg 1/1) BIP1996I: Listening on HTTP URL '/filter'. 
+2025-07-20 16:23:24.525134Z: [Thread 4697] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.FilterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.FilterNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-20 16:23:24.525594Z: [Thread 4697] (Msg 1/1) BIP1996I: Listening on HTTP URL '/label'. 
+2025-07-20 16:23:24.525788Z: [Thread 4697] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.LabelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.LabelNodeJsonInput',type='MessageFlow') started successfully. 
+2025-07-20 16:23:24.526524Z: [Thread 4697] (Msg 1/1) BIP1996I: Listening on HTTP URL '/route'. 
+2025-07-20 16:23:24.526786Z: [Thread 4697] (Msg 1/1) BIP2269I: Deployed resource 'ao.studying.nodes.group.routing.RouteNodeXmlInput' (uuid='ao.studying.nodes.group.routing.RouteNodeXmlInput',type='MessageFlow') started successfully. 
+2025-07-20 16:23:24.526890Z: [Thread 4697] (Msg 1/1) BIP9332I: Application 'studyingDifferentNodes' has been reloaded successfully. 
+2025-07-20 16:23:24.527178Z: [Thread 4697] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'fistProject' of type 'RestAPI'. 
+2025-07-20 16:23:24.527812Z: [Thread 4697] (Msg 1/1) BIP1996I: Listening on HTTP URL '/fistproject/v1*'. 
+2025-07-20 16:23:24.528166Z: [Thread 4697] (Msg 1/1) BIP2269I: Deployed resource 'gen.fistProject' (uuid='gen.fistProject',type='MessageFlow') started successfully. 
+2025-07-20 16:23:24.528296Z: [Thread 4697] (Msg 1/1) BIP9332I: RestAPI 'fistProject' has been reloaded successfully. 
+2025-07-20 16:23:24.996704Z: [Thread 4790] (Msg 1/1) BIP2866I: IBM App Connect Enterprise administration security is inactive. 
+2025-07-20 16:23:25.017966Z: [Thread 4790] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7600' for 'RestAdmin http' connections. 
+2025-07-20 16:23:25.022542Z: [Thread 4697] (Msg 1/1) BIP1991I: Integration server has finished initialization. 
+2025-07-20 16:51:17.022136Z: [Thread 4697] (Msg 1/1) BIP1989I: Integration server is terminating due to a shutdown event. 
+2025-07-20 16:51:17.025750Z: [Thread 4697] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-20 16:51:17.026110Z: [Thread 4697] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'fistProject' of type 'RestAPI'. 
+2025-07-20 16:51:20.633456Z: [Thread 4697] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Complete' (uuid='ao.studying.nodes.group.grouping.Complete',type='MessageFlow') successfully stopped. 
+2025-07-20 16:51:21.631182Z: [Thread 4697] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Gather' (uuid='ao.studying.nodes.group.grouping.Gather',type='MessageFlow') successfully stopped. 
+2025-07-20 16:51:21.631676Z: [Thread 4697] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Processing' (uuid='ao.studying.nodes.group.grouping.Processing',type='MessageFlow') successfully stopped. 
+2025-07-20 16:51:21.631838Z: [Thread 4697] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.grouping.Scatter' (uuid='ao.studying.nodes.group.grouping.Scatter',type='MessageFlow') successfully stopped. 
+2025-07-20 16:51:21.633202Z: [Thread 4697] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.FilterNodeJsonInput' (uuid='ao.studying.nodes.group.routing.FilterNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-20 16:51:21.633576Z: [Thread 4697] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.LabelNodeJsonInput' (uuid='ao.studying.nodes.group.routing.LabelNodeJsonInput',type='MessageFlow') successfully stopped. 
+2025-07-20 16:51:21.633994Z: [Thread 4697] (Msg 1/1) BIP2271I: Deployed resource 'ao.studying.nodes.group.routing.RouteNodeXmlInput' (uuid='ao.studying.nodes.group.routing.RouteNodeXmlInput',type='MessageFlow') successfully stopped. 
+2025-07-20 16:51:21.634366Z: [Thread 4697] (Msg 1/1) BIP2271I: Deployed resource 'gen.fistProject' (uuid='gen.fistProject',type='MessageFlow') successfully stopped. 
+2025-07-20 16:51:21.775672Z: [Thread 4697] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'fistProject' of type 'RestAPI'. 
+2025-07-20 16:51:21.830794Z: [Thread 4697] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'studyingDifferentNodes' of type 'Application'. 
+2025-07-20 16:51:21.952166Z: [Thread 4697] (Msg 1/1) BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2025-07-20 16:51:23.836268Z: [Thread 4697] (Msg 1/1) BIP1992I: Integration server 'SERVER' stopped. 

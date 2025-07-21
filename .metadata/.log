@@ -1224,3 +1224,561 @@ Binding(ALT+SHIFT+R,
 
 !ENTRY com.ibm.mq.runtime 4 0 2025-07-14 20:51:31.330
 !MESSAGE WebSphere MQ install location is not found.
+!SESSION 2025-07-15 19:52:03.891 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220421-1001
+java.fullversion=17.0.13+11
+JRE 17 Linux amd64-64-Bit Compressed References 20241015_819 (JIT enabled, AOT enabled)
+OpenJ9   - 1d5831436e
+OMR      - d10a4d553
+JCL      - 4e6d65012a0 based on jdk-17.0.13+11
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_PT
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-15 19:52:05.111
+!MESSAGE Both 'com.ibm.etools.mft.fcb' and 'com.ibm.etools.mft.gef.emf' register a package for 'http://www.ibm.com/wbi/2005/eflow_utility'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-15 19:52:05.112
+!MESSAGE Both 'com.ibm.etools.mft.gef.emf' and 'com.ibm.etools.mft.gef.emf' register a package for 'http://www.ibm.com/wbi/2005/eflow_utility'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-15 19:52:05.112
+!MESSAGE Both 'com.ibm.etools.mft.fcb' and 'com.ibm.etools.mft.pattern.capture.annotation' register a package for 'http://www.ibm.com/patternAnnotation/2010'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-15 19:52:05.116
+!MESSAGE Both 'com.ibm.etools.mft.gef.emf' and 'org.eclipse.emf.ecore' register a package for 'http://www.eclipse.org/emf/2002/Ecore'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-15 19:52:05.126
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-07-15 19:52:22.114
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2025-07-15 19:52:24.505
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-15 19:52:24.506
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1f049f6a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@428d7e1f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-15 19:52:24.506
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7f25d352,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@78c4ab81,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2025-07-15 19:52:25.093
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2025-07-15 19:52:25.093
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2025-07-15 19:52:25.093
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY com.ibm.etools.mft.uri 0 0 2025-07-15 19:52:25.587
+!MESSAGE 
+
+!ENTRY org.eclipse.jface.text 2 0 2025-07-15 19:52:29.282
+!MESSAGE Duplicate template id: 'com.ibm.datatools.sqlxeditor.templates.xmlnamespaces2'
+
+!ENTRY com.ibm.etools.mft.pattern.community 4 0 2025-07-15 19:52:33.839
+!MESSAGE Connection to the URL https://ot4i.github.io/ace-patterns/pt/repo_metadata.json failed. Response code: 404
+
+!ENTRY com.ibm.mq.runtime 1 0 2025-07-15 19:52:41.761
+!MESSAGE /home/lukoki-makuntima-daniel/Documentos/ace-12.0.12.13/ace mqsifindmqpath
+
+!ENTRY com.ibm.mq.runtime 1 0 2025-07-15 19:52:41.849
+!MESSAGE BIP8100I: Unable to detect an installation of IBM MQ 
+
+!ENTRY com.ibm.mq.runtime 4 0 2025-07-15 19:52:41.852
+!MESSAGE WebSphere MQ install location is not found.
+!SESSION 2025-07-16 19:42:22.621 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220421-1001
+java.fullversion=17.0.13+11
+JRE 17 Linux amd64-64-Bit Compressed References 20241015_819 (JIT enabled, AOT enabled)
+OpenJ9   - 1d5831436e
+OMR      - d10a4d553
+JCL      - 4e6d65012a0 based on jdk-17.0.13+11
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_PT
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-16 19:42:23.712
+!MESSAGE Both 'com.ibm.etools.mft.fcb' and 'com.ibm.etools.mft.gef.emf' register a package for 'http://www.ibm.com/wbi/2005/eflow_utility'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-16 19:42:23.713
+!MESSAGE Both 'com.ibm.etools.mft.gef.emf' and 'com.ibm.etools.mft.gef.emf' register a package for 'http://www.ibm.com/wbi/2005/eflow_utility'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-16 19:42:23.713
+!MESSAGE Both 'com.ibm.etools.mft.fcb' and 'com.ibm.etools.mft.pattern.capture.annotation' register a package for 'http://www.ibm.com/patternAnnotation/2010'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-16 19:42:23.715
+!MESSAGE Both 'com.ibm.etools.mft.gef.emf' and 'org.eclipse.emf.ecore' register a package for 'http://www.eclipse.org/emf/2002/Ecore'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-16 19:42:23.725
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-07-16 19:42:26.633
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2025-07-16 19:42:28.823
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-16 19:42:28.823
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@204a5c3f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c0922647,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-16 19:42:28.823
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e49c0c89,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@27a5e6af,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2025-07-16 19:42:29.397
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2025-07-16 19:42:29.398
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2025-07-16 19:42:29.398
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY com.ibm.etools.mft.uri 0 0 2025-07-16 19:42:29.878
+!MESSAGE 
+
+!ENTRY org.eclipse.jface.text 2 0 2025-07-16 19:42:33.653
+!MESSAGE Duplicate template id: 'com.ibm.datatools.sqlxeditor.templates.xmlnamespaces2'
+
+!ENTRY com.ibm.etools.mft.pattern.community 4 0 2025-07-16 19:42:38.344
+!MESSAGE Connection to the URL https://ot4i.github.io/ace-patterns/pt/repo_metadata.json failed. Response code: 404
+
+!ENTRY com.ibm.mq.runtime 1 0 2025-07-16 19:42:47.672
+!MESSAGE /home/lukoki-makuntima-daniel/Documentos/ace-12.0.12.13/ace mqsifindmqpath
+
+!ENTRY com.ibm.mq.runtime 1 0 2025-07-16 19:42:47.765
+!MESSAGE BIP8100I: Unable to detect an installation of IBM MQ 
+
+!ENTRY com.ibm.mq.runtime 4 0 2025-07-16 19:42:47.768
+!MESSAGE WebSphere MQ install location is not found.
+!SESSION 2025-07-17 20:14:43.262 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220421-1001
+java.fullversion=17.0.13+11
+JRE 17 Linux amd64-64-Bit Compressed References 20241015_819 (JIT enabled, AOT enabled)
+OpenJ9   - 1d5831436e
+OMR      - d10a4d553
+JCL      - 4e6d65012a0 based on jdk-17.0.13+11
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_PT
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-17 20:14:44.805
+!MESSAGE Both 'com.ibm.etools.mft.fcb' and 'com.ibm.etools.mft.gef.emf' register a package for 'http://www.ibm.com/wbi/2005/eflow_utility'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-17 20:14:44.806
+!MESSAGE Both 'com.ibm.etools.mft.gef.emf' and 'com.ibm.etools.mft.gef.emf' register a package for 'http://www.ibm.com/wbi/2005/eflow_utility'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-17 20:14:44.807
+!MESSAGE Both 'com.ibm.etools.mft.fcb' and 'com.ibm.etools.mft.pattern.capture.annotation' register a package for 'http://www.ibm.com/patternAnnotation/2010'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-17 20:14:44.810
+!MESSAGE Both 'com.ibm.etools.mft.gef.emf' and 'org.eclipse.emf.ecore' register a package for 'http://www.eclipse.org/emf/2002/Ecore'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-17 20:14:44.823
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-07-17 20:14:48.396
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2025-07-17 20:14:51.550
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-17 20:14:51.550
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b2e35f11,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@300ac302,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-17 20:14:51.550
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@aaa9cc60,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@53a0baf0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2025-07-17 20:14:52.263
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2025-07-17 20:14:52.263
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2025-07-17 20:14:52.263
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY com.ibm.etools.mft.uri 0 0 2025-07-17 20:14:52.873
+!MESSAGE 
+
+!ENTRY org.eclipse.jface.text 2 0 2025-07-17 20:14:57.095
+!MESSAGE Duplicate template id: 'com.ibm.datatools.sqlxeditor.templates.xmlnamespaces2'
+
+!ENTRY com.ibm.etools.mft.pattern.community 4 0 2025-07-17 20:15:02.702
+!MESSAGE Connection to the URL https://ot4i.github.io/ace-patterns/pt/repo_metadata.json failed. Response code: 404
+
+!ENTRY com.ibm.mq.runtime 1 0 2025-07-17 20:15:13.915
+!MESSAGE /home/lukoki-makuntima-daniel/Documentos/ace-12.0.12.13/ace mqsifindmqpath
+
+!ENTRY com.ibm.mq.runtime 1 0 2025-07-17 20:15:14.035
+!MESSAGE BIP8100I: Unable to detect an installation of IBM MQ 
+
+!ENTRY com.ibm.mq.runtime 4 0 2025-07-17 20:15:14.040
+!MESSAGE WebSphere MQ install location is not found.
+!SESSION 2025-07-20 17:15:47.481 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220421-1001
+java.fullversion=17.0.13+11
+JRE 17 Linux amd64-64-Bit Compressed References 20241015_819 (JIT enabled, AOT enabled)
+OpenJ9   - 1d5831436e
+OMR      - d10a4d553
+JCL      - 4e6d65012a0 based on jdk-17.0.13+11
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_PT
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-20 17:15:48.698
+!MESSAGE Both 'com.ibm.etools.mft.fcb' and 'com.ibm.etools.mft.gef.emf' register a package for 'http://www.ibm.com/wbi/2005/eflow_utility'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-20 17:15:48.698
+!MESSAGE Both 'com.ibm.etools.mft.gef.emf' and 'com.ibm.etools.mft.gef.emf' register a package for 'http://www.ibm.com/wbi/2005/eflow_utility'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-20 17:15:48.699
+!MESSAGE Both 'com.ibm.etools.mft.fcb' and 'com.ibm.etools.mft.pattern.capture.annotation' register a package for 'http://www.ibm.com/patternAnnotation/2010'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-20 17:15:48.702
+!MESSAGE Both 'com.ibm.etools.mft.gef.emf' and 'org.eclipse.emf.ecore' register a package for 'http://www.eclipse.org/emf/2002/Ecore'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-20 17:15:48.713
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-07-20 17:15:53.350
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2025-07-20 17:15:55.766
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-20 17:15:55.767
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@410025e7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@959d5ba5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-20 17:15:55.767
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@49fae94e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@31bd561c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2025-07-20 17:15:56.372
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2025-07-20 17:15:56.373
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2025-07-20 17:15:56.373
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY com.ibm.etools.mft.uri 0 0 2025-07-20 17:15:56.900
+!MESSAGE 
+
+!ENTRY org.eclipse.jface.text 2 0 2025-07-20 17:16:00.484
+!MESSAGE Duplicate template id: 'com.ibm.datatools.sqlxeditor.templates.xmlnamespaces2'
+
+!ENTRY com.ibm.etools.mft.pattern.community 4 0 2025-07-20 17:16:05.405
+!MESSAGE Connection to the URL https://ot4i.github.io/ace-patterns/pt/repo_metadata.json failed. Response code: 404
+
+!ENTRY com.ibm.mq.runtime 1 0 2025-07-20 17:16:14.075
+!MESSAGE /home/lukoki-makuntima-daniel/Documentos/ace-12.0.12.13/ace mqsifindmqpath
+
+!ENTRY com.ibm.mq.runtime 1 0 2025-07-20 17:16:14.170
+!MESSAGE BIP8100I: Unable to detect an installation of IBM MQ 
+
+!ENTRY com.ibm.mq.runtime 4 0 2025-07-20 17:16:14.174
+!MESSAGE WebSphere MQ install location is not found.
+!SESSION 2025-07-20 17:18:42.353 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220421-1001
+java.fullversion=17.0.13+11
+JRE 17 Linux amd64-64-Bit Compressed References 20241015_819 (JIT enabled, AOT enabled)
+OpenJ9   - 1d5831436e
+OMR      - d10a4d553
+JCL      - 4e6d65012a0 based on jdk-17.0.13+11
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_PT
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-20 17:18:43.514
+!MESSAGE Both 'com.ibm.etools.mft.fcb' and 'com.ibm.etools.mft.gef.emf' register a package for 'http://www.ibm.com/wbi/2005/eflow_utility'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-20 17:18:43.515
+!MESSAGE Both 'com.ibm.etools.mft.gef.emf' and 'com.ibm.etools.mft.gef.emf' register a package for 'http://www.ibm.com/wbi/2005/eflow_utility'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-20 17:18:43.516
+!MESSAGE Both 'com.ibm.etools.mft.fcb' and 'com.ibm.etools.mft.pattern.capture.annotation' register a package for 'http://www.ibm.com/patternAnnotation/2010'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-20 17:18:43.519
+!MESSAGE Both 'com.ibm.etools.mft.gef.emf' and 'org.eclipse.emf.ecore' register a package for 'http://www.eclipse.org/emf/2002/Ecore'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-20 17:18:43.528
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.jface 2 0 2025-07-20 17:18:48.131
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-20 17:18:48.131
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10ebdcb8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b2857b1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-20 17:18:48.131
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@13e7d51b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ee2f5d3e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2025-07-20 17:18:48.648
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2025-07-20 17:18:48.648
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2025-07-20 17:18:48.648
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY com.ibm.etools.mft.uri 0 0 2025-07-20 17:18:49.047
+!MESSAGE 
+
+!ENTRY org.eclipse.jface.text 2 0 2025-07-20 17:18:52.143
+!MESSAGE Duplicate template id: 'com.ibm.datatools.sqlxeditor.templates.xmlnamespaces2'
+
+!ENTRY com.ibm.etools.mft.pattern.community 4 0 2025-07-20 17:18:56.215
+!MESSAGE Connection to the URL https://ot4i.github.io/ace-patterns/pt/repo_metadata.json failed. Response code: 404
+
+!ENTRY com.ibm.mq.runtime 1 0 2025-07-20 17:19:05.084
+!MESSAGE /home/lukoki-makuntima-daniel/Documentos/ace-12.0.12.13/ace mqsifindmqpath
+
+!ENTRY com.ibm.mq.runtime 1 0 2025-07-20 17:19:05.181
+!MESSAGE BIP8100I: Unable to detect an installation of IBM MQ 
+
+!ENTRY com.ibm.mq.runtime 4 0 2025-07-20 17:19:05.184
+!MESSAGE WebSphere MQ install location is not found.
+!SESSION 2025-07-20 18:08:19.361 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220421-1001
+java.fullversion=17.0.13+11
+JRE 17 Linux amd64-64-Bit Compressed References 20241015_819 (JIT enabled, AOT enabled)
+OpenJ9   - 1d5831436e
+OMR      - d10a4d553
+JCL      - 4e6d65012a0 based on jdk-17.0.13+11
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_PT
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-20 18:08:20.568
+!MESSAGE Both 'com.ibm.etools.mft.fcb' and 'com.ibm.etools.mft.gef.emf' register a package for 'http://www.ibm.com/wbi/2005/eflow_utility'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-20 18:08:20.569
+!MESSAGE Both 'com.ibm.etools.mft.gef.emf' and 'com.ibm.etools.mft.gef.emf' register a package for 'http://www.ibm.com/wbi/2005/eflow_utility'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-20 18:08:20.569
+!MESSAGE Both 'com.ibm.etools.mft.fcb' and 'com.ibm.etools.mft.pattern.capture.annotation' register a package for 'http://www.ibm.com/patternAnnotation/2010'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-20 18:08:20.572
+!MESSAGE Both 'com.ibm.etools.mft.gef.emf' and 'org.eclipse.emf.ecore' register a package for 'http://www.eclipse.org/emf/2002/Ecore'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-07-20 18:08:20.580
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.jface 2 0 2025-07-20 18:08:26.214
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-20 18:08:26.214
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@bfab6e78,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ec0daf16,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-20 18:08:26.214
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ead24185,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f634cb53,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2025-07-20 18:08:26.929
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2025-07-20 18:08:26.930
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2025-07-20 18:08:26.930
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY com.ibm.etools.mft.uri 0 0 2025-07-20 18:08:27.451
+!MESSAGE 
+
+!ENTRY org.eclipse.jface.text 2 0 2025-07-20 18:08:30.396
+!MESSAGE Duplicate template id: 'com.ibm.datatools.sqlxeditor.templates.xmlnamespaces2'
+
+!ENTRY com.ibm.etools.mft.pattern.community 4 0 2025-07-20 18:08:36.717
+!MESSAGE Connection to the URL https://ot4i.github.io/ace-patterns/pt/repo_metadata.json failed. Response code: 404
+
+!ENTRY com.ibm.mq.runtime 1 0 2025-07-20 18:08:48.025
+!MESSAGE /home/lukoki-makuntima-daniel/Documentos/ace-12.0.12.13/ace mqsifindmqpath
+
+!ENTRY com.ibm.mq.runtime 1 0 2025-07-20 18:08:48.136
+!MESSAGE BIP8100I: Unable to detect an installation of IBM MQ 
+
+!ENTRY com.ibm.mq.runtime 4 0 2025-07-20 18:08:48.139
+!MESSAGE WebSphere MQ install location is not found.
