@@ -1,0 +1,70 @@
+*****************[2025-07-24 19:59:54.467617]*****************
+( ['WSRoot' : 0x708c24031ee0]
+  (0x01000000:Name  ):Properties      = ( ['WSPROPERTYPARSER' : 0x708c24076870]
+    (0x03000000:NameValue):MessageSet             = '' (CHARACTER)
+    (0x03000000:NameValue):MessageType            = '' (CHARACTER)
+    (0x03000000:NameValue):MessageFormat          = '' (CHARACTER)
+    (0x03000000:NameValue):Encoding               = 546 (INTEGER)
+    (0x03000000:NameValue):CodedCharSetId         = 1208 (INTEGER)
+    (0x03000000:NameValue):Transactional          = FALSE (BOOLEAN)
+    (0x03000000:NameValue):Persistence            = FALSE (BOOLEAN)
+    (0x03000000:NameValue):CreationTime           = GMTTIMESTAMP '2025-07-24 18:59:54.463714' (GMTTIMESTAMP)
+    (0x03000000:NameValue):ExpirationTime         = -1 (INTEGER)
+    (0x03000000:NameValue):Priority               = 0 (INTEGER)
+    (0x03000000:NameValue):ReplyIdentifier        = X'000000000000000000000000000000000000000000000000' (BLOB)
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = 'application/json' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourceType     = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourceToken    = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourcePassword = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourceIssuedBy = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedType     = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedToken    = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedPassword = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedIssuedBy = '' (CHARACTER)
+  )
+  (0x01000000:Name  ):HTTPInputHeader = ( ['WSINPHDR' : 0x708c2407a780]
+    (0x03000000:NameValue):Content-Length          = '39' (CHARACTER)
+    (0x03000000:NameValue):Accept-Encoding         = 'gzip, deflate, br' (CHARACTER)
+    (0x03000000:NameValue):Accept                  = '*/*' (CHARACTER)
+    (0x03000000:NameValue):User-Agent              = 'Thunder Client (https://www.thunderclient.com)' (CHARACTER)
+    (0x03000000:NameValue):Content-Type            = 'application/json' (CHARACTER)
+    (0x03000000:NameValue):Host                    = 'localhost:7800' (CHARACTER)
+    (0x03000000:NameValue):Connection              = 'close' (CHARACTER)
+    (0x03000000:NameValue):X-Original-HTTP-Command = 'GET http://localhost:7800/trace HTTP/1.1' (CHARACTER)
+    (0x03000000:NameValue):X-Server-Name           = 'localhost' (CHARACTER)
+    (0x03000000:NameValue):X-Server-Port           = '7800' (CHARACTER)
+    (0x03000000:NameValue):X-Remote-Addr           = '127.0.0.1' (CHARACTER)
+    (0x03000000:NameValue):X-Remote-Host           = 'localhost' (CHARACTER)
+    (0x03000000:NameValue):X-Scheme                = 'http' (CHARACTER)
+  )
+  (0x01000000:Object):JSON            = ( ['json' : 0x708c2407fba0]
+    (0x01000000:Object):Data = (
+      (0x01000000:Object):calculate = (
+        (0x01001000:Array):numbers = (
+          (0x03000000:NameValue):Item = 1 (INTEGER)
+          (0x03000000:NameValue):Item = 0 (INTEGER)
+          (0x03000000:NameValue):Item = 4 (INTEGER)
+        )
+      )
+    )
+  )
+)
+***************************************************************
+( ['MQROOT' : 0x708c2406ffb0]
+  (0x01000000:Name):Variables = (
+    (0x03000000:NameValue):result = 'excess value for the operation we need only two' (CHARACTER)
+  )
+)
+***************************************************************
+( ['MQROOT' : 0x708c24031bc0]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'455648540000000000000000df69ce3d3719000000000000' (BLOB)
+    )
+  )
+)
+***************************************************************
+
+***************************************************************

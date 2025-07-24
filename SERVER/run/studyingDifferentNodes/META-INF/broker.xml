@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Broker deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/studyingDifferentNodesproject.generated.bar" deployTimestamp="2025-07-21 17:29:56">
+<Broker deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/studyingDifferentNodesproject.generated.bar" deployTimestamp="2025-07-24 19:10:52">
   <CompiledApplication>
     <ConfigurableProperty uri="startMode">
     </ConfigurableProperty>
   </CompiledApplication>
-  <CompiledMessageFlow name="ao.studying.nodes.group.grouping.Scatter" deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/studyingDifferentNodesproject.generated.bar" deployTimestamp="2025-07-21 17:29:56">
+  <CompiledMessageFlow name="ao.studying.nodes.group.grouping.Scatter" deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/studyingDifferentNodesproject.generated.bar" deployTimestamp="2025-07-24 19:10:52">
     <ConfigurableProperty uri="ao.studying.nodes.group.grouping.Scatter#Group Scatter.GroupName" override="arithmetricOperation">
     </ConfigurableProperty>
     <ConfigurableProperty uri="ao.studying.nodes.group.grouping.Scatter#Group Scatter.GroupTimeout" override="30.0">
@@ -120,7 +120,7 @@
     <ConfigurableProperty uri="ao.studying.nodes.group.grouping.Scatter#wlmPolicy">
     </ConfigurableProperty>
   </CompiledMessageFlow>
-  <CompiledMessageFlow name="ao.studying.nodes.group.grouping.Processing" deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/studyingDifferentNodesproject.generated.bar" deployTimestamp="2025-07-21 17:29:56">
+  <CompiledMessageFlow name="ao.studying.nodes.group.grouping.Processing" deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/studyingDifferentNodesproject.generated.bar" deployTimestamp="2025-07-24 19:10:52">
     <ConfigurableProperty uri="ao.studying.nodes.group.grouping.Processing#Div Callable Input.callableInputEndpoint" override="divOperation">
     </ConfigurableProperty>
     <ConfigurableProperty uri="ao.studying.nodes.group.grouping.Processing#Mult Callable Input.callableInputEndpoint" override="multOperation">
@@ -188,7 +188,7 @@
     <ConfigurableProperty uri="ao.studying.nodes.group.grouping.Processing#wlmPolicy">
     </ConfigurableProperty>
   </CompiledMessageFlow>
-  <CompiledMessageFlow name="ao.studying.nodes.group.routing.FilterNodeJsonInput" deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/studyingDifferentNodesproject.generated.bar" deployTimestamp="2025-07-21 17:29:56">
+  <CompiledMessageFlow name="ao.studying.nodes.group.routing.FilterNodeJsonInput" deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/studyingDifferentNodesproject.generated.bar" deployTimestamp="2025-07-24 19:10:52">
     <ConfigurableProperty uri="ao.studying.nodes.group.routing.FilterNodeJsonInput#Compute.connectDatasourceBeforeFlowStarts">
     </ConfigurableProperty>
     <ConfigurableProperty uri="ao.studying.nodes.group.routing.FilterNodeJsonInput#Compute.dataSource">
@@ -258,7 +258,7 @@
     <ConfigurableProperty uri="ao.studying.nodes.group.routing.FilterNodeJsonInput#wlmPolicy">
     </ConfigurableProperty>
   </CompiledMessageFlow>
-  <CompiledMessageFlow name="ao.studying.nodes.group.error.handling.TryCatch" deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/studyingDifferentNodesproject.generated.bar" deployTimestamp="2025-07-21 17:29:56">
+  <CompiledMessageFlow name="ao.studying.nodes.group.error.handling.TryCatch" deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/studyingDifferentNodesproject.generated.bar" deployTimestamp="2025-07-24 19:10:52">
     <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TryCatch#HTTP Input.URLSpecifier" override="/trycatch">
     </ConfigurableProperty>
     <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TryCatch#HTTP Input.decompressInputMessage">
@@ -324,7 +324,79 @@
     <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TryCatch#wlmPolicy">
     </ConfigurableProperty>
   </CompiledMessageFlow>
-  <CompiledMessageFlow name="ao.studying.nodes.group.routing.LabelNodeJsonInput" deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/studyingDifferentNodesproject.generated.bar" deployTimestamp="2025-07-21 17:29:56">
+  <CompiledMessageFlow name="ao.studying.nodes.group.error.handling.TraceNode" deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/studyingDifferentNodesproject.generated.bar" deployTimestamp="2025-07-24 19:10:52">
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#HTTP Input.URLSpecifier" override="/trace">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#HTTP Input.decompressInputMessage">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#HTTP Input.faultFormat">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#HTTP Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#HTTP Input.timeoutForClient">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#HTTP Input.useHTTPS">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#HTTP Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#HTTP Reply.compressionType">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#HTTP Reply.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#Trace.filePath" override="/home/lukoki-makuntima-daniel/Documentos/Integration project/logsTrace/trace1.log">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#Trace1.filePath" override="/home/lukoki-makuntima-daniel/Documentos/Integration project/logsTrace/trace2.log">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#Trace2.filePath" override="/home/lukoki-makuntima-daniel/Documentos/Integration project/logsTrace/trace3.log">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#error.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#error.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#error.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#solving.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#solving.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#solving.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ao.studying.nodes.group.error.handling.TraceNode#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+  <CompiledMessageFlow name="ao.studying.nodes.group.routing.LabelNodeJsonInput" deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/studyingDifferentNodesproject.generated.bar" deployTimestamp="2025-07-24 19:10:52">
     <ConfigurableProperty uri="ao.studying.nodes.group.routing.LabelNodeJsonInput#HTTP Reply.compressionType">
     </ConfigurableProperty>
     <ConfigurableProperty uri="ao.studying.nodes.group.routing.LabelNodeJsonInput#HTTP Reply.validateMaster">
@@ -414,7 +486,7 @@
     <ConfigurableProperty uri="ao.studying.nodes.group.routing.LabelNodeJsonInput#wlmPolicy">
     </ConfigurableProperty>
   </CompiledMessageFlow>
-  <CompiledMessageFlow name="ao.studying.nodes.group.grouping.Gather" deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/studyingDifferentNodesproject.generated.bar" deployTimestamp="2025-07-21 17:29:56">
+  <CompiledMessageFlow name="ao.studying.nodes.group.grouping.Gather" deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/studyingDifferentNodesproject.generated.bar" deployTimestamp="2025-07-24 19:10:52">
     <ConfigurableProperty uri="ao.studying.nodes.group.grouping.Gather#Div Callable Flow Async Response.asyncResponseCorrelator" override="Div Flow Async Invoke">
     </ConfigurableProperty>
     <ConfigurableProperty uri="ao.studying.nodes.group.grouping.Gather#Group Gather.GroupName" override="arithmetricOperation">
@@ -462,7 +534,7 @@
     <ConfigurableProperty uri="ao.studying.nodes.group.grouping.Gather#wlmPolicy">
     </ConfigurableProperty>
   </CompiledMessageFlow>
-  <CompiledMessageFlow name="ao.studying.nodes.group.routing.RouteNodeXmlInput" deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/studyingDifferentNodesproject.generated.bar" deployTimestamp="2025-07-21 17:29:56">
+  <CompiledMessageFlow name="ao.studying.nodes.group.routing.RouteNodeXmlInput" deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/studyingDifferentNodesproject.generated.bar" deployTimestamp="2025-07-24 19:10:52">
     <ConfigurableProperty uri="ao.studying.nodes.group.routing.RouteNodeXmlInput#HTTP Input.URLSpecifier" override="/route">
     </ConfigurableProperty>
     <ConfigurableProperty uri="ao.studying.nodes.group.routing.RouteNodeXmlInput#HTTP Input.decompressInputMessage">
@@ -548,7 +620,7 @@
     <ConfigurableProperty uri="ao.studying.nodes.group.routing.RouteNodeXmlInput#wlmPolicy">
     </ConfigurableProperty>
   </CompiledMessageFlow>
-  <CompiledMessageFlow name="ao.studying.nodes.group.grouping.Complete" deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/studyingDifferentNodesproject.generated.bar" deployTimestamp="2025-07-21 17:29:56">
+  <CompiledMessageFlow name="ao.studying.nodes.group.grouping.Complete" deployBarfile="/home/lukoki-makuntima-daniel/Documentos/Integration project/GeneratedBarFiles/studyingDifferentNodesproject.generated.bar" deployTimestamp="2025-07-24 19:10:52">
     <ConfigurableProperty uri="ao.studying.nodes.group.grouping.Complete#Compute.connectDatasourceBeforeFlowStarts">
     </ConfigurableProperty>
     <ConfigurableProperty uri="ao.studying.nodes.group.grouping.Complete#Compute.dataSource">

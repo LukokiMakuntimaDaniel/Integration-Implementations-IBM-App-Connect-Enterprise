@@ -1,0 +1,34 @@
+CREATE COMPUTE MODULE TryCatch_solving
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		 DECLARE inputRef REFERENCE TO InputRoot.JSON.Data.calculate;
+		 DECLARE numbersCount INTEGER CARDINALITY(inputRef.numbers.Item[]);
+		 DECLARE numbers REFERENCE TO inputRef.numbers;
+		 DECLARE n1 DECIMAL CAST(numbers.Item[1] AS DECIMAL);
+		 DECLARE n2 DECIMAL CAST(numbers.Item[2] AS DECIMAL);
+		 
+		 IF numbersCount = 2 AND n2<>0 THEN
+		 
+			 DECLARE result DECIMAL (n1/n2);
+			 SET OutputRoot.JSON.Data.result = CAST(result as DECIMAL(10,5));
+		 
+		 ELSEIF(numbersCount = 2 AND n2=0) THEN
+		 
+			 SET Environment.Variables.result = 'division by zero error';
+			 PROPAGATE TO TERMINAL 1;
+			 RETURN FALSE;
+		 
+		 ELSE
+		 
+			 SET Environment.Variables.result = 'excess value for the operation we need only two';
+			 PROPAGATE TO TERMINAL 1;
+			 RETURN FALSE;
+		 
+		 END IF;
+		
+		RETURN TRUE;
+		
+	END;
+
+END MODULE;
